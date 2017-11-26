@@ -1,4 +1,5 @@
-var fs = require('fs');
+var fs = require('fs'),
+    dictionaryEnums = require('../enums/dictionary');
 
 module.exports = {
 
@@ -18,7 +19,7 @@ module.exports = {
 
 
     // chinese edict u8 dictionary parser
-    chineseEdictU8: function (data) {
+    chineseEdictU8: function (data, dictionaryEnum) {
         "use strict";
         return new Promise((resolve, reject) => {
 
@@ -47,7 +48,58 @@ module.exports = {
                     parsedData.push(parsedLine);
                 }
             });
-            resolve(JSON.stringify(parsedData));
+            
+            switch (dictionaryEnum){
+                case dictionaryEnums.ALL:
+                    resolve(JSON.stringify(parsedData));
+                    break;
+
+                case dictionaryEnums.TRADITIONAL:
+                    var wantedData = [];
+                    parsedData.map((data) => {
+                        wantedData.push(data.traditional);
+                    });
+                    resolve(JSON.stringify(wantedData));
+                    break;
+
+                case dictionaryEnums.SIMPLIFIED:
+                    var wantedData = [];
+                    parsedData.map((data) => {
+                        wantedData.push(data.simplified);
+                    });
+                    resolve(JSON.stringify(wantedData));
+                    break;
+
+                case dictionaryEnums.PINYIN_NUMBER:
+                    var wantedData = [];
+                    parsedData.map((data) => {
+                        wantedData.push(data.pinyinNumber);
+                    });
+                    resolve(JSON.stringify(wantedData));
+                    break;
+
+                case dictionaryEnums.PINYIN_TONE:
+                    var wantedData = [];
+                    parsedData.map((data) => {
+                        wantedData.push(data.pinyinTone);
+                    });
+                    resolve(JSON.stringify(wantedData));
+                    break;
+
+                case dictionaryEnums.PINYIN_ATONE:
+                    var wantedData = [];
+                    parsedData.map((data) => {
+                        wantedData.push(data.pinyinTone.normalize('NFD').replace(/[\u0300-\u036f]/g, ""));
+                    });
+                    resolve(JSON.stringify(wantedData));
+                    break;
+
+                default:
+                    reject('Dictoinary enum not correct')
+            }
+            
+            
+
         });
     },
 
