@@ -1,18 +1,18 @@
-var express = require('express'),
-    parser = require('../services/parser');
+/** hsk routes **/
+
+let express = require('express'),
+    jsonServices = require('../data-access/json');
 
 
-module.exports = express.Router()
+module.exports = {
 
-// get hsk list by level
-    .get('/:number', (req, res, next) => {
-        var dictionaryPath = process.env.PWD + '/data/hsk/hsk_' + req.params.number + '_cn-en.txt';
-        parser.readFileUtf8(dictionaryPath).then((rawData) => {
-            parser.chineseHsk(rawData).then((parsedData)=> {
-                res.set({'content-type': 'application/json; charset=utf-8'});
-                res.json(parsedData)
-            }, (err) => {
-                console.log(err);
-            })
+    /** get hsk list by level **/
+    getLevel: function (res, req) {
+        let filePath = process.env.PWD + '/data/hsk/hsk_' + req.params.level + '_cn-en.txt';
+        jsonServices.getJson(filePath).then((jsonData) => {
+            return jsonData;
+        }, (err) => {
+            console.log(err);
         });
-    });
+    }
+};

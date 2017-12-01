@@ -5,6 +5,7 @@ var express = require('express'),
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
     sassMiddleware = require('node-sass-middleware'),
+    helmet = require('helmet'),
 
     routes = require('./routes'),
     dictionaryRoutes = require('./routes/dictionary'),
@@ -31,6 +32,9 @@ module.exports = express()
     // routes
     .use(express.static(path.join(__dirname, 'public')))
     //.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
-    .use('/', routes);
+    .use('/', routes)
 
+    // TLS security
+    .use(helmet())
+    .disable('x-powered-by')
 

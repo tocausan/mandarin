@@ -1,0 +1,2402 @@
+[
+    {
+        "simplified": "阿姨",
+        "traditional": "阿姨",
+        "pinyinNumber": "a1yi2",
+        "pinyinTone": "āyí",
+        "translation": "auntie; step-mother; mother's younger sister",
+        "pinyinAtone": "ayi"
+    },
+    {
+        "simplified": "啊",
+        "traditional": "啊",
+        "pinyinNumber": "a5",
+        "pinyinTone": "a",
+        "translation": "ah; (particle showing elation, doubt, puzzled surprise, or approval)",
+        "pinyinAtone": "a"
+    },
+    {
+        "simplified": "矮",
+        "traditional": "矮",
+        "pinyinNumber": "ai3",
+        "pinyinTone": "ǎi",
+        "translation": "short; low",
+        "pinyinAtone": "ai"
+    },
+    {
+        "simplified": "爱好",
+        "traditional": "愛好",
+        "pinyinNumber": "ai4hao4",
+        "pinyinTone": "àihào",
+        "translation": "hobby; fond of; to like; interest",
+        "pinyinAtone": "aihao"
+    },
+    {
+        "simplified": "安静",
+        "traditional": "安靜",
+        "pinyinNumber": "an1jing4",
+        "pinyinTone": "ānjìng",
+        "translation": "quiet; peaceful; calm",
+        "pinyinAtone": "anjing"
+    },
+    {
+        "simplified": "把",
+        "traditional": "把",
+        "pinyinNumber": "ba3",
+        "pinyinTone": "bǎ",
+        "translation": "(mw for things with handles); (pretransitive particle); to hold",
+        "pinyinAtone": "ba"
+    },
+    {
+        "simplified": "班",
+        "traditional": "班",
+        "pinyinNumber": "ban1",
+        "pinyinTone": "bān",
+        "translation": "team; class; squad",
+        "pinyinAtone": "ban"
+    },
+    {
+        "simplified": "搬",
+        "traditional": "搬",
+        "pinyinNumber": "ban1",
+        "pinyinTone": "bān",
+        "translation": "to move; to transport",
+        "pinyinAtone": "ban"
+    },
+    {
+        "simplified": "办法",
+        "traditional": "辦法",
+        "pinyinNumber": "ban4fa3",
+        "pinyinTone": "bànfǎ",
+        "translation": "method; way (of doing something)",
+        "pinyinAtone": "banfa"
+    },
+    {
+        "simplified": "办公室",
+        "traditional": "辦公室",
+        "pinyinNumber": "ban4gong1shi4",
+        "pinyinTone": "bàngōngshì",
+        "translation": "office",
+        "pinyinAtone": "bangongshi"
+    },
+    {
+        "simplified": "半",
+        "traditional": "半",
+        "pinyinNumber": "ban4",
+        "pinyinTone": "bàn",
+        "translation": "half; semi-; incomplete",
+        "pinyinAtone": "ban"
+    },
+    {
+        "simplified": "帮忙",
+        "traditional": "幫忙",
+        "pinyinNumber": "bang1mang2",
+        "pinyinTone": "bāngmáng",
+        "translation": "to help",
+        "pinyinAtone": "bangmang"
+    },
+    {
+        "simplified": "包",
+        "traditional": "包",
+        "pinyinNumber": "bao1",
+        "pinyinTone": "bāo",
+        "translation": "to cover; to wrap; to hold; include; (mw for containers, packages, etc.)",
+        "pinyinAtone": "bao"
+    },
+    {
+        "simplified": "饱",
+        "traditional": "飽",
+        "pinyinNumber": "bao3",
+        "pinyinTone": "bǎo",
+        "translation": "eat until full; satisfied",
+        "pinyinAtone": "bao"
+    },
+    {
+        "simplified": "北方",
+        "traditional": "北方",
+        "pinyinNumber": "bei3fang1",
+        "pinyinTone": "běifāng",
+        "translation": "north; the northern part of the country",
+        "pinyinAtone": "beifang"
+    },
+    {
+        "simplified": "被",
+        "traditional": "被",
+        "pinyinNumber": "bei4",
+        "pinyinTone": "bèi",
+        "translation": "by (indicates passive voice sentences); a quilt/blanket",
+        "pinyinAtone": "bei"
+    },
+    {
+        "simplified": "鼻子",
+        "traditional": "鼻子",
+        "pinyinNumber": "bi2zi5",
+        "pinyinTone": "bízi",
+        "translation": "nose",
+        "pinyinAtone": "bizi"
+    },
+    {
+        "simplified": "比较",
+        "traditional": "比較",
+        "pinyinNumber": "bi3jiao4",
+        "pinyinTone": "bǐjiào",
+        "translation": "compare; contrast; relatively",
+        "pinyinAtone": "bijiao"
+    },
+    {
+        "simplified": "比赛",
+        "traditional": "比賽",
+        "pinyinNumber": "bi3sai4",
+        "pinyinTone": "bǐsài",
+        "translation": "(sports) match; competition",
+        "pinyinAtone": "bisai"
+    },
+    {
+        "simplified": "笔记本",
+        "traditional": "筆記本",
+        "pinyinNumber": "bi3ji4ben3",
+        "pinyinTone": "bǐjìběn",
+        "translation": "notebook",
+        "pinyinAtone": "bijiben"
+    },
+    {
+        "simplified": "必须",
+        "traditional": "必須",
+        "pinyinNumber": "bi4xu1",
+        "pinyinTone": "bìxū",
+        "translation": "must; have to",
+        "pinyinAtone": "bixu"
+    },
+    {
+        "simplified": "变化",
+        "traditional": "變化",
+        "pinyinNumber": "bian4hua4",
+        "pinyinTone": "biànhuà",
+        "translation": "change",
+        "pinyinAtone": "bianhua"
+    },
+    {
+        "simplified": "别人",
+        "traditional": "別人",
+        "pinyinNumber": "bie2ren5",
+        "pinyinTone": "biéren",
+        "translation": "other people; others",
+        "pinyinAtone": "bieren"
+    },
+    {
+        "simplified": "冰箱",
+        "traditional": "冰箱",
+        "pinyinNumber": "bing1xiang1",
+        "pinyinTone": "bīngxiāng",
+        "translation": "refrigerator",
+        "pinyinAtone": "bingxiang"
+    },
+    {
+        "simplified": "不但",
+        "traditional": "不但",
+        "pinyinNumber": "bu2dan4",
+        "pinyinTone": "búdàn",
+        "translation": "not only",
+        "pinyinAtone": "budan"
+    },
+    {
+        "simplified": "而且",
+        "traditional": "而且",
+        "pinyinNumber": "er2qie3",
+        "pinyinTone": "érqiě",
+        "translation": "moreover; in addition; as well as",
+        "pinyinAtone": "erqie"
+    },
+    {
+        "simplified": "菜单",
+        "traditional": "菜單",
+        "pinyinNumber": "cai4dan1",
+        "pinyinTone": "càidān",
+        "translation": "menu",
+        "pinyinAtone": "caidan"
+    },
+    {
+        "simplified": "参加",
+        "traditional": "參加",
+        "pinyinNumber": "can1jia1",
+        "pinyinTone": "cānjiā",
+        "translation": "participate; join; take part in",
+        "pinyinAtone": "canjia"
+    },
+    {
+        "simplified": "草",
+        "traditional": "草",
+        "pinyinNumber": "cao3",
+        "pinyinTone": "cǎo",
+        "translation": "grass; straw; draft (of a document)",
+        "pinyinAtone": "cao"
+    },
+    {
+        "simplified": "层",
+        "traditional": "層",
+        "pinyinNumber": "ceng2",
+        "pinyinTone": "céng",
+        "translation": "(mw for layers, floors of buildings)",
+        "pinyinAtone": "ceng"
+    },
+    {
+        "simplified": "差",
+        "traditional": "差",
+        "pinyinNumber": "cha4",
+        "pinyinTone": "chà",
+        "translation": "differ from; fall short of; poor; inferior",
+        "pinyinAtone": "cha"
+    },
+    {
+        "simplified": "超市",
+        "traditional": "超市",
+        "pinyinNumber": "chao1shi4",
+        "pinyinTone": "chāoshì",
+        "translation": "supermarket",
+        "pinyinAtone": "chaoshi"
+    },
+    {
+        "simplified": "衬衫",
+        "traditional": "襯衫",
+        "pinyinNumber": "chen4shan1",
+        "pinyinTone": "chènshān",
+        "translation": "shirt; blouse",
+        "pinyinAtone": "chenshan"
+    },
+    {
+        "simplified": "成绩",
+        "traditional": "成績",
+        "pinyinNumber": "cheng2ji4",
+        "pinyinTone": "chéngjì",
+        "translation": "achievement; success; results (of work or study)",
+        "pinyinAtone": "chengji"
+    },
+    {
+        "simplified": "城市",
+        "traditional": "城市",
+        "pinyinNumber": "cheng2shi4",
+        "pinyinTone": "chéngshì",
+        "translation": "city or town",
+        "pinyinAtone": "chengshi"
+    },
+    {
+        "simplified": "迟到",
+        "traditional": "遲到",
+        "pinyinNumber": "chi2dao4",
+        "pinyinTone": "chídào",
+        "translation": "arrive late",
+        "pinyinAtone": "chidao"
+    },
+    {
+        "simplified": "除了",
+        "traditional": "除了",
+        "pinyinNumber": "chu2le5",
+        "pinyinTone": "chúle",
+        "translation": "besides; except for; aside from; in addition to",
+        "pinyinAtone": "chule"
+    },
+    {
+        "simplified": "船",
+        "traditional": "船",
+        "pinyinNumber": "chuan2",
+        "pinyinTone": "chuán",
+        "translation": "a boat; vessel; ship",
+        "pinyinAtone": "chuan"
+    },
+    {
+        "simplified": "春",
+        "traditional": "春",
+        "pinyinNumber": "chun1",
+        "pinyinTone": "chūn",
+        "translation": "spring (season); joyful",
+        "pinyinAtone": "chun"
+    },
+    {
+        "simplified": "词典",
+        "traditional": "詞典",
+        "pinyinNumber": "ci2dian3",
+        "pinyinTone": "cídiǎn",
+        "translation": "dictionary",
+        "pinyinAtone": "cidian"
+    },
+    {
+        "simplified": "聪明",
+        "traditional": "聰明",
+        "pinyinNumber": "cong1ming5",
+        "pinyinTone": "cōngming",
+        "translation": "intelligent; clever; bright; smart",
+        "pinyinAtone": "congming"
+    },
+    {
+        "simplified": "打扫",
+        "traditional": "打掃",
+        "pinyinNumber": "da3sao3",
+        "pinyinTone": "dǎsǎo",
+        "translation": "to clean; to sweep",
+        "pinyinAtone": "dasao"
+    },
+    {
+        "simplified": "打算",
+        "traditional": "打算",
+        "pinyinNumber": "da3suan4",
+        "pinyinTone": "dǎsuàn",
+        "translation": "to plan; intend",
+        "pinyinAtone": "dasuan"
+    },
+    {
+        "simplified": "带",
+        "traditional": "帶",
+        "pinyinNumber": "dai4",
+        "pinyinTone": "dài",
+        "translation": "band; belt; ribbon; carry; bring; take along; bring up (kids)",
+        "pinyinAtone": "dai"
+    },
+    {
+        "simplified": "担心",
+        "traditional": "擔心",
+        "pinyinNumber": "dan1xin1",
+        "pinyinTone": "dānxīn",
+        "translation": "to worry; feel anxious",
+        "pinyinAtone": "danxin"
+    },
+    {
+        "simplified": "蛋糕",
+        "traditional": "蛋糕",
+        "pinyinNumber": "dan4gao1",
+        "pinyinTone": "dàngāo",
+        "translation": "cake",
+        "pinyinAtone": "dangao"
+    },
+    {
+        "simplified": "当然",
+        "traditional": "當然",
+        "pinyinNumber": "dang1ran2",
+        "pinyinTone": "dāngrán",
+        "translation": "of course; naturally",
+        "pinyinAtone": "dangran"
+    },
+    {
+        "simplified": "地",
+        "traditional": "地",
+        "pinyinNumber": "di4, de5",
+        "pinyinTone": "dì, de",
+        "translation": "earth; ground | (adverbial particle)",
+        "pinyinAtone": "di, de"
+    },
+    {
+        "simplified": "灯",
+        "traditional": "燈",
+        "pinyinNumber": "deng1",
+        "pinyinTone": "dēng",
+        "translation": "lamp; light",
+        "pinyinAtone": "deng"
+    },
+    {
+        "simplified": "地方",
+        "traditional": "地方",
+        "pinyinNumber": "di4fang5",
+        "pinyinTone": "dìfang",
+        "translation": "place; space; room; part, (fāng: local; regional)",
+        "pinyinAtone": "difang"
+    },
+    {
+        "simplified": "地铁",
+        "traditional": "地鐵",
+        "pinyinNumber": "di4tie3",
+        "pinyinTone": "dìtiě",
+        "translation": "subway",
+        "pinyinAtone": "ditie"
+    },
+    {
+        "simplified": "地图",
+        "traditional": "地圖",
+        "pinyinNumber": "di4tu2",
+        "pinyinTone": "dìtú",
+        "translation": "map",
+        "pinyinAtone": "ditu"
+    },
+    {
+        "simplified": "电梯",
+        "traditional": "電梯",
+        "pinyinNumber": "dian4ti1",
+        "pinyinTone": "diàntī",
+        "translation": "elevator",
+        "pinyinAtone": "dianti"
+    },
+    {
+        "simplified": "电子邮件",
+        "traditional": "電子郵件",
+        "pinyinNumber": "dian4zi3 you2jian4",
+        "pinyinTone": "diànzǐ yóujiàn",
+        "translation": "email",
+        "pinyinAtone": "dianzi youjian"
+    },
+    {
+        "simplified": "东",
+        "traditional": "東",
+        "pinyinNumber": "dong1",
+        "pinyinTone": "dōng",
+        "translation": "East",
+        "pinyinAtone": "dong"
+    },
+    {
+        "simplified": "冬",
+        "traditional": "冬",
+        "pinyinNumber": "dong1",
+        "pinyinTone": "dōng",
+        "translation": "winter",
+        "pinyinAtone": "dong"
+    },
+    {
+        "simplified": "动物",
+        "traditional": "動物",
+        "pinyinNumber": "dong4wu4",
+        "pinyinTone": "dòngwù",
+        "translation": "animal",
+        "pinyinAtone": "dongwu"
+    },
+    {
+        "simplified": "短",
+        "traditional": "短",
+        "pinyinNumber": "duan3",
+        "pinyinTone": "duǎn",
+        "translation": "short (in length, duration, or height); lack",
+        "pinyinAtone": "duan"
+    },
+    {
+        "simplified": "段",
+        "traditional": "段",
+        "pinyinNumber": "duan4",
+        "pinyinTone": "duàn",
+        "translation": "paragraph; segment; section",
+        "pinyinAtone": "duan"
+    },
+    {
+        "simplified": "锻炼",
+        "traditional": "鍛煉",
+        "pinyinNumber": "duan4lian4",
+        "pinyinTone": "duànliàn",
+        "translation": "to exercise; work out; toughen; to temper",
+        "pinyinAtone": "duanlian"
+    },
+    {
+        "simplified": "多么",
+        "traditional": "多麼",
+        "pinyinNumber": "duo1me5",
+        "pinyinTone": "duōme",
+        "translation": "how (wonderful, etc.); what (a great idea)",
+        "pinyinAtone": "duome"
+    },
+    {
+        "simplified": "饿",
+        "traditional": "餓",
+        "pinyinNumber": "e4",
+        "pinyinTone": "è",
+        "translation": "hungry",
+        "pinyinAtone": "e"
+    },
+    {
+        "simplified": "耳朵",
+        "traditional": "耳朵",
+        "pinyinNumber": "er3duo5",
+        "pinyinTone": "ěrduo",
+        "translation": "ear",
+        "pinyinAtone": "erduo"
+    },
+    {
+        "simplified": "发",
+        "traditional": "發",
+        "pinyinNumber": "fa1, fa4",
+        "pinyinTone": "fā, fà",
+        "translation": "send out; to issue; to show (one's feelings) | hair",
+        "pinyinAtone": "fa, fa"
+    },
+    {
+        "simplified": "发烧",
+        "traditional": "發燒",
+        "pinyinNumber": "fa1shao1",
+        "pinyinTone": "fāshāo",
+        "translation": "have a fever",
+        "pinyinAtone": "fashao"
+    },
+    {
+        "simplified": "发现",
+        "traditional": "發現",
+        "pinyinNumber": "fa1xian4",
+        "pinyinTone": "fāxiàn",
+        "translation": "discover; to find",
+        "pinyinAtone": "faxian"
+    },
+    {
+        "simplified": "方便",
+        "traditional": "方便",
+        "pinyinNumber": "fang1bian4",
+        "pinyinTone": "fāngbiàn",
+        "translation": "convenient",
+        "pinyinAtone": "fangbian"
+    },
+    {
+        "simplified": "放",
+        "traditional": "放",
+        "pinyinNumber": "fang4",
+        "pinyinTone": "fàng",
+        "translation": "put; to place; to release; to free",
+        "pinyinAtone": "fang"
+    },
+    {
+        "simplified": "放心",
+        "traditional": "放心",
+        "pinyinNumber": "fang4xin1",
+        "pinyinTone": "fàngxīn",
+        "translation": "relax; feel relieved; rest assured",
+        "pinyinAtone": "fangxin"
+    },
+    {
+        "simplified": "分",
+        "traditional": "分",
+        "pinyinNumber": "fen1, fen4",
+        "pinyinTone": "fēn, fèn",
+        "translation": "divide; part; minute; cent | component; share; ingredient",
+        "pinyinAtone": "fen, fen"
+    },
+    {
+        "simplified": "附近",
+        "traditional": "附近",
+        "pinyinNumber": "fu4jin4",
+        "pinyinTone": "fùjìn",
+        "translation": "(in the) vicinity; nearby; neighboring",
+        "pinyinAtone": "fujin"
+    },
+    {
+        "simplified": "复习",
+        "traditional": "復習",
+        "pinyinNumber": "fu4xi2",
+        "pinyinTone": "fùxí",
+        "translation": "revise; to review",
+        "pinyinAtone": "fuxi"
+    },
+    {
+        "simplified": "干净",
+        "traditional": "干淨",
+        "pinyinNumber": "gan1jing4",
+        "pinyinTone": "gānjìng",
+        "translation": "clean; neat and tidy",
+        "pinyinAtone": "ganjing"
+    },
+    {
+        "simplified": "感冒",
+        "traditional": "感冒",
+        "pinyinNumber": "gan3mao4",
+        "pinyinTone": "gǎnmào",
+        "translation": "catch cold; (common) cold",
+        "pinyinAtone": "ganmao"
+    },
+    {
+        "simplified": "感兴趣",
+        "traditional": "感興趣",
+        "pinyinNumber": "gan3 xing4qu4",
+        "pinyinTone": "gǎn xìngqù",
+        "translation": "be interested in",
+        "pinyinAtone": "gan xingqu"
+    },
+    {
+        "simplified": "刚才",
+        "traditional": "剛才",
+        "pinyinNumber": "gang1cai2",
+        "pinyinTone": "gāngcái",
+        "translation": "just now; a moment ago",
+        "pinyinAtone": "gangcai"
+    },
+    {
+        "simplified": "个子",
+        "traditional": "個子",
+        "pinyinNumber": "ge4zi5",
+        "pinyinTone": "gèzi",
+        "translation": "height; stature; build",
+        "pinyinAtone": "gezi"
+    },
+    {
+        "simplified": "根据",
+        "traditional": "根據",
+        "pinyinNumber": "gen1ju4",
+        "pinyinTone": "gēnjù",
+        "translation": "according to; based on; basis",
+        "pinyinAtone": "genju"
+    },
+    {
+        "simplified": "跟",
+        "traditional": "跟",
+        "pinyinNumber": "gen1",
+        "pinyinTone": "gēn",
+        "translation": "to follow; go with; heel",
+        "pinyinAtone": "gen"
+    },
+    {
+        "simplified": "更",
+        "traditional": "更",
+        "pinyinNumber": "geng4",
+        "pinyinTone": "gèng",
+        "translation": "more; even more",
+        "pinyinAtone": "geng"
+    },
+    {
+        "simplified": "公斤",
+        "traditional": "公斤",
+        "pinyinNumber": "gong1jin1",
+        "pinyinTone": "gōngjīn",
+        "translation": "kilogram",
+        "pinyinAtone": "gongjin"
+    },
+    {
+        "simplified": "公园",
+        "traditional": "公園",
+        "pinyinNumber": "gong1yuan2",
+        "pinyinTone": "gōngyuán",
+        "translation": "public park",
+        "pinyinAtone": "gongyuan"
+    },
+    {
+        "simplified": "故事",
+        "traditional": "故事",
+        "pinyinNumber": "gu4shi5",
+        "pinyinTone": "gùshi",
+        "translation": "story; tale",
+        "pinyinAtone": "gushi"
+    },
+    {
+        "simplified": "刮风",
+        "traditional": "刮風",
+        "pinyinNumber": "gua1feng1",
+        "pinyinTone": "guāfēng",
+        "translation": "windy; to blow (wind)",
+        "pinyinAtone": "guafeng"
+    },
+    {
+        "simplified": "关",
+        "traditional": "關",
+        "pinyinNumber": "guan1",
+        "pinyinTone": "guān",
+        "translation": "to close; shut; concern; relationship; turn off; mountain pass",
+        "pinyinAtone": "guan"
+    },
+    {
+        "simplified": "关系",
+        "traditional": "關系",
+        "pinyinNumber": "guan1xi5",
+        "pinyinTone": "guānxi",
+        "translation": "relation; to concern",
+        "pinyinAtone": "guanxi"
+    },
+    {
+        "simplified": "关心",
+        "traditional": "關心",
+        "pinyinNumber": "guan1xin1",
+        "pinyinTone": "guānxīn",
+        "translation": "concerned about/with",
+        "pinyinAtone": "guanxin"
+    },
+    {
+        "simplified": "关于",
+        "traditional": "關於",
+        "pinyinNumber": "guan1yu2",
+        "pinyinTone": "guānyú",
+        "translation": "about; regarding; concerning",
+        "pinyinAtone": "guanyu"
+    },
+    {
+        "simplified": "国家",
+        "traditional": "國家",
+        "pinyinNumber": "guo2jia1",
+        "pinyinTone": "guójiā",
+        "translation": "country; state; nation",
+        "pinyinAtone": "guojia"
+    },
+    {
+        "simplified": "过",
+        "traditional": "過",
+        "pinyinNumber": "guo4",
+        "pinyinTone": "guò",
+        "translation": "to pass; to cross; go over; (indicates a past experience)",
+        "pinyinAtone": "guo"
+    },
+    {
+        "simplified": "过去",
+        "traditional": "過去",
+        "pinyinNumber": "guo4qu4",
+        "pinyinTone": "guòqù",
+        "translation": "in the past; formerly",
+        "pinyinAtone": "guoqu"
+    },
+    {
+        "simplified": "还是",
+        "traditional": "還是",
+        "pinyinNumber": "hai2shi5",
+        "pinyinTone": "háishi",
+        "translation": "or; still; nevertheless; had better",
+        "pinyinAtone": "haishi"
+    },
+    {
+        "simplified": "害怕",
+        "traditional": "害怕",
+        "pinyinNumber": "hai4pa4",
+        "pinyinTone": "hàipà",
+        "translation": "afraid of; to fear",
+        "pinyinAtone": "haipa"
+    },
+    {
+        "simplified": "黑板",
+        "traditional": "黑板",
+        "pinyinNumber": "hei1ban3",
+        "pinyinTone": "hēibǎn",
+        "translation": "blackboard",
+        "pinyinAtone": "heiban"
+    },
+    {
+        "simplified": "后来",
+        "traditional": "后來",
+        "pinyinNumber": "hou4lai2",
+        "pinyinTone": "hòulái",
+        "translation": "afterwards; after; later",
+        "pinyinAtone": "houlai"
+    },
+    {
+        "simplified": "护照",
+        "traditional": "護照",
+        "pinyinNumber": "hu4zhao4",
+        "pinyinTone": "hùzhào",
+        "translation": "passport",
+        "pinyinAtone": "huzhao"
+    },
+    {
+        "simplified": "花",
+        "traditional": "花",
+        "pinyinNumber": "hua1",
+        "pinyinTone": "huā",
+        "translation": "flower; blossom; spend money; cost",
+        "pinyinAtone": "hua"
+    },
+    {
+        "simplified": "画",
+        "traditional": "畫",
+        "pinyinNumber": "hua4",
+        "pinyinTone": "huà",
+        "translation": "draw; picture; painting",
+        "pinyinAtone": "hua"
+    },
+    {
+        "simplified": "坏",
+        "traditional": "壞",
+        "pinyinNumber": "huai4",
+        "pinyinTone": "huài",
+        "translation": "bad; broken",
+        "pinyinAtone": "huai"
+    },
+    {
+        "simplified": "欢迎",
+        "traditional": "歡迎",
+        "pinyinNumber": "huan1ying2",
+        "pinyinTone": "huānyíng",
+        "translation": "to welcome; greet",
+        "pinyinAtone": "huanying"
+    },
+    {
+        "simplified": "还",
+        "traditional": "還",
+        "pinyinNumber": "hai2",
+        "pinyinTone": "hái",
+        "translation": "still; yet; in addition; even",
+        "pinyinAtone": "hai"
+    },
+    {
+        "simplified": "环境",
+        "traditional": "環境",
+        "pinyinNumber": "huan2jing4",
+        "pinyinTone": "huánjìng",
+        "translation": "environment; surroundings",
+        "pinyinAtone": "huanjing"
+    },
+    {
+        "simplified": "换",
+        "traditional": "換",
+        "pinyinNumber": "huan4",
+        "pinyinTone": "huàn",
+        "translation": "change; to exchange; to barter; to trade",
+        "pinyinAtone": "huan"
+    },
+    {
+        "simplified": "黄河",
+        "traditional": "黃河",
+        "pinyinNumber": "huang2he2",
+        "pinyinTone": "huánghé",
+        "translation": "Yellow River",
+        "pinyinAtone": "huanghe"
+    },
+    {
+        "simplified": "回答",
+        "traditional": "回答",
+        "pinyinNumber": "hui2da2",
+        "pinyinTone": "huídá",
+        "translation": "to reply; to answer",
+        "pinyinAtone": "huida"
+    },
+    {
+        "simplified": "会议",
+        "traditional": "會議",
+        "pinyinNumber": "hui4yi4",
+        "pinyinTone": "huìyì",
+        "translation": "meeting; conference",
+        "pinyinAtone": "huiyi"
+    },
+    {
+        "simplified": "或者",
+        "traditional": "或者",
+        "pinyinNumber": "huo4zhe3",
+        "pinyinTone": "huòzhě",
+        "translation": "or; possible; maybe; perhaps",
+        "pinyinAtone": "huozhe"
+    },
+    {
+        "simplified": "几乎",
+        "traditional": "幾乎",
+        "pinyinNumber": "ji1hu1",
+        "pinyinTone": "jīhū",
+        "translation": "almost",
+        "pinyinAtone": "jihu"
+    },
+    {
+        "simplified": "机会",
+        "traditional": "機會",
+        "pinyinNumber": "ji1hui4",
+        "pinyinTone": "jīhuì",
+        "translation": "opportunity; chance; occasion",
+        "pinyinAtone": "jihui"
+    },
+    {
+        "simplified": "极",
+        "traditional": "極",
+        "pinyinNumber": "ji2",
+        "pinyinTone": "jí",
+        "translation": "an extreme; pole; very",
+        "pinyinAtone": "ji"
+    },
+    {
+        "simplified": "记得",
+        "traditional": "記得",
+        "pinyinNumber": "ji4de5",
+        "pinyinTone": "jìde",
+        "translation": "remember",
+        "pinyinAtone": "jide"
+    },
+    {
+        "simplified": "季节",
+        "traditional": "季節",
+        "pinyinNumber": "ji4jie2",
+        "pinyinTone": "jìjié",
+        "translation": "season; time; period",
+        "pinyinAtone": "jijie"
+    },
+    {
+        "simplified": "检查",
+        "traditional": "檢查",
+        "pinyinNumber": "jian3cha2",
+        "pinyinTone": "jiǎnchá",
+        "translation": "to check; examine; inspect",
+        "pinyinAtone": "jiancha"
+    },
+    {
+        "simplified": "简单",
+        "traditional": "簡單",
+        "pinyinNumber": "jian3dan1",
+        "pinyinTone": "jiǎndān",
+        "translation": "simple; not complicated",
+        "pinyinAtone": "jiandan"
+    },
+    {
+        "simplified": "见面",
+        "traditional": "見面",
+        "pinyinNumber": "jian4mian4",
+        "pinyinTone": "jiànmiàn",
+        "translation": "meet/see somebody; meeting",
+        "pinyinAtone": "jianmian"
+    },
+    {
+        "simplified": "健康",
+        "traditional": "健康",
+        "pinyinNumber": "jian4kang1",
+        "pinyinTone": "jiànkāng",
+        "translation": "health; healthy",
+        "pinyinAtone": "jiankang"
+    },
+    {
+        "simplified": "讲",
+        "traditional": "講",
+        "pinyinNumber": "jiang3",
+        "pinyinTone": "jiǎng",
+        "translation": "to talk; to lecture; to explain; a speech",
+        "pinyinAtone": "jiang"
+    },
+    {
+        "simplified": "教",
+        "traditional": "教",
+        "pinyinNumber": "jiao1, jiao4",
+        "pinyinTone": "jiāo, jiào",
+        "translation": "teach; instruct | religion; teaching",
+        "pinyinAtone": "jiao, jiao"
+    },
+    {
+        "simplified": "角",
+        "traditional": "角",
+        "pinyinNumber": "jiao3, jue2",
+        "pinyinTone": "jiǎo, jué",
+        "translation": "horn; angle; unit of money (1/10 yuan); corner (Kangxi radical 148) | role (theater)",
+        "pinyinAtone": "jiao, jue"
+    },
+    {
+        "simplified": "脚",
+        "traditional": "腳",
+        "pinyinNumber": "jiao3",
+        "pinyinTone": "jiǎo",
+        "translation": "foot (body part)",
+        "pinyinAtone": "jiao"
+    },
+    {
+        "simplified": "接",
+        "traditional": "接",
+        "pinyinNumber": "jie1",
+        "pinyinTone": "jiē",
+        "translation": "connect; to meet; to pick up (somebody); to receive",
+        "pinyinAtone": "jie"
+    },
+    {
+        "simplified": "街道",
+        "traditional": "街道",
+        "pinyinNumber": "jie1dao4",
+        "pinyinTone": "jiēdào",
+        "translation": "street",
+        "pinyinAtone": "jiedao"
+    },
+    {
+        "simplified": "节目",
+        "traditional": "節目",
+        "pinyinNumber": "jie2mu4",
+        "pinyinTone": "jiémù",
+        "translation": "program; item (on a program)",
+        "pinyinAtone": "jiemu"
+    },
+    {
+        "simplified": "节日",
+        "traditional": "節日",
+        "pinyinNumber": "jie2ri4",
+        "pinyinTone": "jiérì",
+        "translation": "holiday; festival",
+        "pinyinAtone": "jieri"
+    },
+    {
+        "simplified": "结婚",
+        "traditional": "結婚",
+        "pinyinNumber": "jie2hun1",
+        "pinyinTone": "jiéhūn",
+        "translation": "get married",
+        "pinyinAtone": "jiehun"
+    },
+    {
+        "simplified": "结束",
+        "traditional": "結束",
+        "pinyinNumber": "jie2shu4",
+        "pinyinTone": "jiéshù",
+        "translation": "to end; to finish; conclude",
+        "pinyinAtone": "jieshu"
+    },
+    {
+        "simplified": "解决",
+        "traditional": "解決",
+        "pinyinNumber": "jie3jue2",
+        "pinyinTone": "jiějué",
+        "translation": "settle (a dispute); resolve; solve",
+        "pinyinAtone": "jiejue"
+    },
+    {
+        "simplified": "借",
+        "traditional": "借",
+        "pinyinNumber": "jie4",
+        "pinyinTone": "jiè",
+        "translation": "lend; borrow; excuse",
+        "pinyinAtone": "jie"
+    },
+    {
+        "simplified": "经常",
+        "traditional": "經常",
+        "pinyinNumber": "jing1chang2",
+        "pinyinTone": "jīngcháng",
+        "translation": "often; frequently; daily",
+        "pinyinAtone": "jingchang"
+    },
+    {
+        "simplified": "经过",
+        "traditional": "經過",
+        "pinyinNumber": "jing1guo4",
+        "pinyinTone": "jīngguò",
+        "translation": "to pass; go through; as a result of",
+        "pinyinAtone": "jingguo"
+    },
+    {
+        "simplified": "经理",
+        "traditional": "經理",
+        "pinyinNumber": "jing1li3",
+        "pinyinTone": "jīnglǐ",
+        "translation": "manager; director",
+        "pinyinAtone": "jingli"
+    },
+    {
+        "simplified": "久",
+        "traditional": "久",
+        "pinyinNumber": "jiu3",
+        "pinyinTone": "jiǔ",
+        "translation": "long (time)",
+        "pinyinAtone": "jiu"
+    },
+    {
+        "simplified": "旧",
+        "traditional": "舊",
+        "pinyinNumber": "jiu4",
+        "pinyinTone": "jiù",
+        "translation": "old; past; used",
+        "pinyinAtone": "jiu"
+    },
+    {
+        "simplified": "句子",
+        "traditional": "句子",
+        "pinyinNumber": "ju4zi5",
+        "pinyinTone": "jùzi",
+        "translation": "sentence",
+        "pinyinAtone": "juzi"
+    },
+    {
+        "simplified": "决定",
+        "traditional": "決定",
+        "pinyinNumber": "jue2ding4",
+        "pinyinTone": "juédìng",
+        "translation": "decide; resolve",
+        "pinyinAtone": "jueding"
+    },
+    {
+        "simplified": "可爱",
+        "traditional": "可愛",
+        "pinyinNumber": "ke3'ai4",
+        "pinyinTone": "kě'ài",
+        "translation": "cute; lovely",
+        "pinyinAtone": "ke'ai"
+    },
+    {
+        "simplified": "渴",
+        "traditional": "渴",
+        "pinyinNumber": "ke3",
+        "pinyinTone": "kě",
+        "translation": "thirsty",
+        "pinyinAtone": "ke"
+    },
+    {
+        "simplified": "刻",
+        "traditional": "刻",
+        "pinyinNumber": "ke4",
+        "pinyinTone": "kè",
+        "translation": "quarter (hour); (mw for short time intervals); carve; to cut",
+        "pinyinAtone": "ke"
+    },
+    {
+        "simplified": "客人",
+        "traditional": "客人",
+        "pinyinNumber": "ke4ren2",
+        "pinyinTone": "kèrén",
+        "translation": "guest; customer",
+        "pinyinAtone": "keren"
+    },
+    {
+        "simplified": "空调",
+        "traditional": "空調",
+        "pinyinNumber": "kong1tiao2",
+        "pinyinTone": "kōngtiáo",
+        "translation": "air conditioning",
+        "pinyinAtone": "kongtiao"
+    },
+    {
+        "simplified": "口",
+        "traditional": "口",
+        "pinyinNumber": "kou3",
+        "pinyinTone": "kǒu",
+        "translation": "mouth (Kangxi radical 30)",
+        "pinyinAtone": "kou"
+    },
+    {
+        "simplified": "哭",
+        "traditional": "哭",
+        "pinyinNumber": "ku1",
+        "pinyinTone": "kū",
+        "translation": "cry; weep",
+        "pinyinAtone": "ku"
+    },
+    {
+        "simplified": "裤子",
+        "traditional": "褲子",
+        "pinyinNumber": "ku4zi5",
+        "pinyinTone": "kùzi",
+        "translation": "pants; trousers",
+        "pinyinAtone": "kuzi"
+    },
+    {
+        "simplified": "筷子",
+        "traditional": "筷子",
+        "pinyinNumber": "kuai4zi5",
+        "pinyinTone": "kuàizi",
+        "translation": "chopsticks",
+        "pinyinAtone": "kuaizi"
+    },
+    {
+        "simplified": "蓝",
+        "traditional": "藍",
+        "pinyinNumber": "lan2",
+        "pinyinTone": "lán",
+        "translation": "blue",
+        "pinyinAtone": "lan"
+    },
+    {
+        "simplified": "老",
+        "traditional": "老",
+        "pinyinNumber": "lao3",
+        "pinyinTone": "lǎo",
+        "translation": "old; aged; tough; often (Kangxi radical 125)",
+        "pinyinAtone": "lao"
+    },
+    {
+        "simplified": "离开",
+        "traditional": "離開",
+        "pinyinNumber": "li2kai1",
+        "pinyinTone": "líkāi",
+        "translation": "leave; depart",
+        "pinyinAtone": "likai"
+    },
+    {
+        "simplified": "礼物",
+        "traditional": "禮物",
+        "pinyinNumber": "li3wu4",
+        "pinyinTone": "lǐwù",
+        "translation": "gift; present",
+        "pinyinAtone": "liwu"
+    },
+    {
+        "simplified": "历史",
+        "traditional": "歷史",
+        "pinyinNumber": "li4shi3",
+        "pinyinTone": "lìshǐ",
+        "translation": "history",
+        "pinyinAtone": "lishi"
+    },
+    {
+        "simplified": "脸",
+        "traditional": "臉",
+        "pinyinNumber": "lian3",
+        "pinyinTone": "liǎn",
+        "translation": "face",
+        "pinyinAtone": "lian"
+    },
+    {
+        "simplified": "练习",
+        "traditional": "練習",
+        "pinyinNumber": "lian4xi2",
+        "pinyinTone": "liànxí",
+        "translation": "practice; exercise",
+        "pinyinAtone": "lianxi"
+    },
+    {
+        "simplified": "辆",
+        "traditional": "輛",
+        "pinyinNumber": "liang4",
+        "pinyinTone": "liàng",
+        "translation": "(mw for vehicles)",
+        "pinyinAtone": "liang"
+    },
+    {
+        "simplified": "聊天",
+        "traditional": "聊天",
+        "pinyinNumber": "liao2tian1",
+        "pinyinTone": "liáotiān",
+        "translation": "to chat",
+        "pinyinAtone": "liaotian"
+    },
+    {
+        "simplified": "了解",
+        "traditional": "了解",
+        "pinyinNumber": "liao3jie3",
+        "pinyinTone": "liǎojiě",
+        "translation": "comprehend; understand; know; find out",
+        "pinyinAtone": "liaojie"
+    },
+    {
+        "simplified": "邻居",
+        "traditional": "鄰居",
+        "pinyinNumber": "lin2ju1",
+        "pinyinTone": "línjū",
+        "translation": "neighbor",
+        "pinyinAtone": "linju"
+    },
+    {
+        "simplified": "留学",
+        "traditional": "留學",
+        "pinyinNumber": "liu2xue2",
+        "pinyinTone": "liúxué",
+        "translation": "study abroad",
+        "pinyinAtone": "liuxue"
+    },
+    {
+        "simplified": "楼",
+        "traditional": "樓",
+        "pinyinNumber": "lou2",
+        "pinyinTone": "lóu",
+        "translation": "story; floor; (multi-story) building",
+        "pinyinAtone": "lou"
+    },
+    {
+        "simplified": "绿",
+        "traditional": "綠",
+        "pinyinNumber": "lv4",
+        "pinyinTone": "lǜ",
+        "translation": "green",
+        "pinyinAtone": "lu"
+    },
+    {
+        "simplified": "马",
+        "traditional": "馬",
+        "pinyinNumber": "ma3",
+        "pinyinTone": "mǎ",
+        "translation": "horse (Kangxi radical 187)",
+        "pinyinAtone": "ma"
+    },
+    {
+        "simplified": "马上",
+        "traditional": "馬上",
+        "pinyinNumber": "ma3shang4",
+        "pinyinTone": "mǎshàng",
+        "translation": "at once; immediately; right away",
+        "pinyinAtone": "mashang"
+    },
+    {
+        "simplified": "满意",
+        "traditional": "滿意",
+        "pinyinNumber": "man3yi4",
+        "pinyinTone": "mǎnyì",
+        "translation": "satisfied; pleased",
+        "pinyinAtone": "manyi"
+    },
+    {
+        "simplified": "帽子",
+        "traditional": "帽子",
+        "pinyinNumber": "mao4zi5",
+        "pinyinTone": "màozi",
+        "translation": "hat; cap",
+        "pinyinAtone": "maozi"
+    },
+    {
+        "simplified": "米",
+        "traditional": "米",
+        "pinyinNumber": "mi3",
+        "pinyinTone": "mǐ",
+        "translation": "rice; meter (Kangxi radical 119)",
+        "pinyinAtone": "mi"
+    },
+    {
+        "simplified": "面包",
+        "traditional": "面包",
+        "pinyinNumber": "mian4bao1",
+        "pinyinTone": "miànbāo",
+        "translation": "bread",
+        "pinyinAtone": "mianbao"
+    },
+    {
+        "simplified": "明白",
+        "traditional": "明白",
+        "pinyinNumber": "ming2bai5",
+        "pinyinTone": "míngbai",
+        "translation": "clear; obvious; understand; explicit",
+        "pinyinAtone": "mingbai"
+    },
+    {
+        "simplified": "拿",
+        "traditional": "拿",
+        "pinyinNumber": "na2",
+        "pinyinTone": "ná",
+        "translation": "carry in your hand; seize; to catch",
+        "pinyinAtone": "na"
+    },
+    {
+        "simplified": "奶奶",
+        "traditional": "奶奶",
+        "pinyinNumber": "nai3nai5",
+        "pinyinTone": "nǎinai",
+        "translation": "grandma; (informal) paternal grandmother",
+        "pinyinAtone": "nainai"
+    },
+    {
+        "simplified": "南",
+        "traditional": "南",
+        "pinyinNumber": "nan2",
+        "pinyinTone": "nán",
+        "translation": "South",
+        "pinyinAtone": "nan"
+    },
+    {
+        "simplified": "难",
+        "traditional": "難",
+        "pinyinNumber": "nan2",
+        "pinyinTone": "nán",
+        "translation": "difficult",
+        "pinyinAtone": "nan"
+    },
+    {
+        "simplified": "难过",
+        "traditional": "難過",
+        "pinyinNumber": "nan2guo4",
+        "pinyinTone": "nánguò",
+        "translation": "be grieved; be sad; have a hard time",
+        "pinyinAtone": "nanguo"
+    },
+    {
+        "simplified": "年级",
+        "traditional": "年級",
+        "pinyinNumber": "nian2ji2",
+        "pinyinTone": "niánjí",
+        "translation": "grade; year (in school)",
+        "pinyinAtone": "nianji"
+    },
+    {
+        "simplified": "年轻",
+        "traditional": "年輕",
+        "pinyinNumber": "nian2qing1",
+        "pinyinTone": "niánqīng",
+        "translation": "young",
+        "pinyinAtone": "nianqing"
+    },
+    {
+        "simplified": "鸟",
+        "traditional": "鳥",
+        "pinyinNumber": "niao3",
+        "pinyinTone": "niǎo",
+        "translation": "bird (Kangxi radical 196)",
+        "pinyinAtone": "niao"
+    },
+    {
+        "simplified": "努力",
+        "traditional": "努力",
+        "pinyinNumber": "nu3li4",
+        "pinyinTone": "nǔlì",
+        "translation": "to work hard; to strive",
+        "pinyinAtone": "nuli"
+    },
+    {
+        "simplified": "爬山",
+        "traditional": "爬山",
+        "pinyinNumber": "pa2shan1",
+        "pinyinTone": "páshān",
+        "translation": "mountain climbing",
+        "pinyinAtone": "pashan"
+    },
+    {
+        "simplified": "盘子",
+        "traditional": "盤子",
+        "pinyinNumber": "pan2zi5",
+        "pinyinTone": "pánzi",
+        "translation": "plate; dish; tray",
+        "pinyinAtone": "panzi"
+    },
+    {
+        "simplified": "胖",
+        "traditional": "胖",
+        "pinyinNumber": "pang4",
+        "pinyinTone": "pàng",
+        "translation": "fat; plump",
+        "pinyinAtone": "pang"
+    },
+    {
+        "simplified": "皮鞋",
+        "traditional": "皮鞋",
+        "pinyinNumber": "pi2xie2",
+        "pinyinTone": "píxié",
+        "translation": "leather shoes",
+        "pinyinAtone": "pixie"
+    },
+    {
+        "simplified": "啤酒",
+        "traditional": "啤酒",
+        "pinyinNumber": "pi2jiu3",
+        "pinyinTone": "píjiǔ",
+        "translation": "beer",
+        "pinyinAtone": "pijiu"
+    },
+    {
+        "simplified": "瓶子",
+        "traditional": "瓶子",
+        "pinyinNumber": "ping2zi5",
+        "pinyinTone": "píngzi",
+        "translation": "bottle",
+        "pinyinAtone": "pingzi"
+    },
+    {
+        "simplified": "其实",
+        "traditional": "其實",
+        "pinyinNumber": "qi2shi2",
+        "pinyinTone": "qíshí",
+        "translation": "actually; in fact",
+        "pinyinAtone": "qishi"
+    },
+    {
+        "simplified": "其他",
+        "traditional": "其他",
+        "pinyinNumber": "qi2ta1",
+        "pinyinTone": "qítā",
+        "translation": "other; else",
+        "pinyinAtone": "qita"
+    },
+    {
+        "simplified": "奇怪",
+        "traditional": "奇怪",
+        "pinyinNumber": "qi2guai4",
+        "pinyinTone": "qíguài",
+        "translation": "strange; odd",
+        "pinyinAtone": "qiguai"
+    },
+    {
+        "simplified": "骑",
+        "traditional": "騎",
+        "pinyinNumber": "qi2",
+        "pinyinTone": "qí",
+        "translation": "to ride (an animal or bike); to sit astride",
+        "pinyinAtone": "qi"
+    },
+    {
+        "simplified": "起飞",
+        "traditional": "起飛",
+        "pinyinNumber": "qi3fei1",
+        "pinyinTone": "qǐfēi",
+        "translation": "take off (in an airplane); liftoff",
+        "pinyinAtone": "qifei"
+    },
+    {
+        "simplified": "起来",
+        "traditional": "起來",
+        "pinyinNumber": "qi3lai5",
+        "pinyinTone": "qǐlai",
+        "translation": "(beginning or continuing an action); to rise; get up (from bed)",
+        "pinyinAtone": "qilai"
+    },
+    {
+        "simplified": "清楚",
+        "traditional": "清楚",
+        "pinyinNumber": "qing1chu5",
+        "pinyinTone": "qīngchu",
+        "translation": "clear; distinct; be clear about",
+        "pinyinAtone": "qingchu"
+    },
+    {
+        "simplified": "请假",
+        "traditional": "請假",
+        "pinyinNumber": "qing3jia4",
+        "pinyinTone": "qǐngjià",
+        "translation": "to ask for time off",
+        "pinyinAtone": "qingjia"
+    },
+    {
+        "simplified": "秋",
+        "traditional": "秋",
+        "pinyinNumber": "qiu1",
+        "pinyinTone": "qiū",
+        "translation": "autumn; fall; harvest time",
+        "pinyinAtone": "qiu"
+    },
+    {
+        "simplified": "裙子",
+        "traditional": "裙子",
+        "pinyinNumber": "qun2zi5",
+        "pinyinTone": "qúnzi",
+        "translation": "skirt",
+        "pinyinAtone": "qunzi"
+    },
+    {
+        "simplified": "然后",
+        "traditional": "然后",
+        "pinyinNumber": "ran2hou4",
+        "pinyinTone": "ránhòu",
+        "translation": "then; afterwards",
+        "pinyinAtone": "ranhou"
+    },
+    {
+        "simplified": "热情",
+        "traditional": "熱情",
+        "pinyinNumber": "re4qing2",
+        "pinyinTone": "rèqíng",
+        "translation": "cordial; warm; enthusiastic",
+        "pinyinAtone": "reqing"
+    },
+    {
+        "simplified": "认为",
+        "traditional": "認為",
+        "pinyinNumber": "ren4wei2",
+        "pinyinTone": "rènwéi",
+        "translation": "believe; think that",
+        "pinyinAtone": "renwei"
+    },
+    {
+        "simplified": "认真",
+        "traditional": "認真",
+        "pinyinNumber": "ren4zhen1",
+        "pinyinTone": "rènzhēn",
+        "translation": "serious; earnest; take seriously",
+        "pinyinAtone": "renzhen"
+    },
+    {
+        "simplified": "容易",
+        "traditional": "容易",
+        "pinyinNumber": "rong2yi4",
+        "pinyinTone": "róngyì",
+        "translation": "easy; likely; liable (to)",
+        "pinyinAtone": "rongyi"
+    },
+    {
+        "simplified": "如果",
+        "traditional": "如果",
+        "pinyinNumber": "ru2guo3",
+        "pinyinTone": "rúguǒ",
+        "translation": "if; in the event that",
+        "pinyinAtone": "ruguo"
+    },
+    {
+        "simplified": "伞",
+        "traditional": "傘",
+        "pinyinNumber": "san3",
+        "pinyinTone": "sǎn",
+        "translation": "umbrella; parasol",
+        "pinyinAtone": "san"
+    },
+    {
+        "simplified": "上网",
+        "traditional": "上網",
+        "pinyinNumber": "shang4wang3",
+        "pinyinTone": "shàngwǎng",
+        "translation": "to surf the web; to go online",
+        "pinyinAtone": "shangwang"
+    },
+    {
+        "simplified": "生气",
+        "traditional": "生氣",
+        "pinyinNumber": "sheng1qi4",
+        "pinyinTone": "shēngqì",
+        "translation": "angry; mad",
+        "pinyinAtone": "shengqi"
+    },
+    {
+        "simplified": "声音",
+        "traditional": "聲音",
+        "pinyinNumber": "sheng1yin1",
+        "pinyinTone": "shēngyīn",
+        "translation": "sound; voice",
+        "pinyinAtone": "shengyin"
+    },
+    {
+        "simplified": "世界",
+        "traditional": "世界",
+        "pinyinNumber": "shi4jie4",
+        "pinyinTone": "shìjiè",
+        "translation": "world",
+        "pinyinAtone": "shijie"
+    },
+    {
+        "simplified": "试",
+        "traditional": "試",
+        "pinyinNumber": "shi4",
+        "pinyinTone": "shì",
+        "translation": "to try; to test; examination",
+        "pinyinAtone": "shi"
+    },
+    {
+        "simplified": "瘦",
+        "traditional": "瘦",
+        "pinyinNumber": "shou4",
+        "pinyinTone": "shòu",
+        "translation": "thin; tight; lean",
+        "pinyinAtone": "shou"
+    },
+    {
+        "simplified": "叔叔",
+        "traditional": "叔叔",
+        "pinyinNumber": "shu1shu5",
+        "pinyinTone": "shūshu",
+        "translation": "(informal) father's younger brother; uncle",
+        "pinyinAtone": "shushu"
+    },
+    {
+        "simplified": "舒服",
+        "traditional": "舒服",
+        "pinyinNumber": "shu1fu5",
+        "pinyinTone": "shūfu",
+        "translation": "comfortable; feeling well",
+        "pinyinAtone": "shufu"
+    },
+    {
+        "simplified": "树",
+        "traditional": "樹",
+        "pinyinNumber": "shu4",
+        "pinyinTone": "shù",
+        "translation": "tree",
+        "pinyinAtone": "shu"
+    },
+    {
+        "simplified": "数学",
+        "traditional": "數學",
+        "pinyinNumber": "shu4xue2",
+        "pinyinTone": "shùxué",
+        "translation": "mathematics",
+        "pinyinAtone": "shuxue"
+    },
+    {
+        "simplified": "刷牙",
+        "traditional": "刷牙",
+        "pinyinNumber": "shua1ya2",
+        "pinyinTone": "shuāyá",
+        "translation": "brush one's teeth",
+        "pinyinAtone": "shuaya"
+    },
+    {
+        "simplified": "双",
+        "traditional": "雙",
+        "pinyinNumber": "shuang1",
+        "pinyinTone": "shuāng",
+        "translation": "two; double; (mw for pairs)",
+        "pinyinAtone": "shuang"
+    },
+    {
+        "simplified": "水平",
+        "traditional": "水平",
+        "pinyinNumber": "shui3ping2",
+        "pinyinTone": "shuǐpíng",
+        "translation": "level; standard; horizontal",
+        "pinyinAtone": "shuiping"
+    },
+    {
+        "simplified": "司机",
+        "traditional": "司機",
+        "pinyinNumber": "si1ji1",
+        "pinyinTone": "sījī",
+        "translation": "driver; chauffeur",
+        "pinyinAtone": "siji"
+    },
+    {
+        "simplified": "太阳",
+        "traditional": "太陽",
+        "pinyinNumber": "tai4yang2",
+        "pinyinTone": "tàiyáng",
+        "translation": "the sun",
+        "pinyinAtone": "taiyang"
+    },
+    {
+        "simplified": "特别",
+        "traditional": "特別",
+        "pinyinNumber": "te4bie2",
+        "pinyinTone": "tèbié",
+        "translation": "special; especially; particular",
+        "pinyinAtone": "tebie"
+    },
+    {
+        "simplified": "疼",
+        "traditional": "疼",
+        "pinyinNumber": "teng2",
+        "pinyinTone": "téng",
+        "translation": "ache; sore; (it) hurts; love fondly",
+        "pinyinAtone": "teng"
+    },
+    {
+        "simplified": "提高",
+        "traditional": "提高",
+        "pinyinNumber": "ti2gao1",
+        "pinyinTone": "tígāo",
+        "translation": "to raise; heighten; improve",
+        "pinyinAtone": "tigao"
+    },
+    {
+        "simplified": "体育",
+        "traditional": "體育",
+        "pinyinNumber": "ti3yu4",
+        "pinyinTone": "tǐyù",
+        "translation": "physical training; sports",
+        "pinyinAtone": "tiyu"
+    },
+    {
+        "simplified": "甜",
+        "traditional": "甜",
+        "pinyinNumber": "tian2",
+        "pinyinTone": "tián",
+        "translation": "sweet",
+        "pinyinAtone": "tian"
+    },
+    {
+        "simplified": "条",
+        "traditional": "條",
+        "pinyinNumber": "tiao2",
+        "pinyinTone": "tiáo",
+        "translation": "strip; (mw for long thin objects); item",
+        "pinyinAtone": "tiao"
+    },
+    {
+        "simplified": "同事",
+        "traditional": "同事",
+        "pinyinNumber": "tong2shi4",
+        "pinyinTone": "tóngshì",
+        "translation": "colleague; co-worker",
+        "pinyinAtone": "tongshi"
+    },
+    {
+        "simplified": "同意",
+        "traditional": "同意",
+        "pinyinNumber": "tong2yi4",
+        "pinyinTone": "tóngyì",
+        "translation": "agree; to consent; approve",
+        "pinyinAtone": "tongyi"
+    },
+    {
+        "simplified": "头发",
+        "traditional": "頭發",
+        "pinyinNumber": "tou2fa5",
+        "pinyinTone": "tóufa",
+        "translation": "hair (on the head)",
+        "pinyinAtone": "toufa"
+    },
+    {
+        "simplified": "突然",
+        "traditional": "突然",
+        "pinyinNumber": "tu1ran2",
+        "pinyinTone": "tūrán",
+        "translation": "sudden; abrupt",
+        "pinyinAtone": "turan"
+    },
+    {
+        "simplified": "图书馆",
+        "traditional": "圖書館",
+        "pinyinNumber": "tu2shu1guan3",
+        "pinyinTone": "túshūguǎn",
+        "translation": "library",
+        "pinyinAtone": "tushuguan"
+    },
+    {
+        "simplified": "腿",
+        "traditional": "腿",
+        "pinyinNumber": "tui3",
+        "pinyinTone": "tuǐ",
+        "translation": "leg",
+        "pinyinAtone": "tui"
+    },
+    {
+        "simplified": "完成",
+        "traditional": "完成",
+        "pinyinNumber": "wan2cheng2",
+        "pinyinTone": "wánchéng",
+        "translation": "to complete; accomplish; to fulfill",
+        "pinyinAtone": "wancheng"
+    },
+    {
+        "simplified": "碗",
+        "traditional": "碗",
+        "pinyinNumber": "wan3",
+        "pinyinTone": "wǎn",
+        "translation": "bowl; cup",
+        "pinyinAtone": "wan"
+    },
+    {
+        "simplified": "万",
+        "traditional": "萬",
+        "pinyinNumber": "wan4",
+        "pinyinTone": "wàn",
+        "translation": "ten thousand",
+        "pinyinAtone": "wan"
+    },
+    {
+        "simplified": "忘记",
+        "traditional": "忘記",
+        "pinyinNumber": "wang4ji4",
+        "pinyinTone": "wàngjì",
+        "translation": "forget",
+        "pinyinAtone": "wangji"
+    },
+    {
+        "simplified": "为",
+        "traditional": "為",
+        "pinyinNumber": "wei4",
+        "pinyinTone": "wèi",
+        "translation": "for; because of; to; for the sake of",
+        "pinyinAtone": "wei"
+    },
+    {
+        "simplified": "为了",
+        "traditional": "為了",
+        "pinyinNumber": "wei4le5",
+        "pinyinTone": "wèile",
+        "translation": "in order to; for the sake of; for the purpose of",
+        "pinyinAtone": "weile"
+    },
+    {
+        "simplified": "位",
+        "traditional": "位",
+        "pinyinNumber": "wei4",
+        "pinyinTone": "wèi",
+        "translation": "position; location; (polite mw for people)",
+        "pinyinAtone": "wei"
+    },
+    {
+        "simplified": "文化",
+        "traditional": "文化",
+        "pinyinNumber": "wen2hua4",
+        "pinyinTone": "wénhuà",
+        "translation": "culture; civilization",
+        "pinyinAtone": "wenhua"
+    },
+    {
+        "simplified": "西",
+        "traditional": "西",
+        "pinyinNumber": "xi1",
+        "pinyinTone": "xī",
+        "translation": "West (Kangxi radical 146)",
+        "pinyinAtone": "xi"
+    },
+    {
+        "simplified": "习惯",
+        "traditional": "習慣",
+        "pinyinNumber": "xi2guan4",
+        "pinyinTone": "xíguàn",
+        "translation": "habit; be accustomed to; usual practice",
+        "pinyinAtone": "xiguan"
+    },
+    {
+        "simplified": "洗手间",
+        "traditional": "洗手間",
+        "pinyinNumber": "xi3shou3jian1",
+        "pinyinTone": "xǐshǒujiān",
+        "translation": "toilet; lavatory; washroom",
+        "pinyinAtone": "xishoujian"
+    },
+    {
+        "simplified": "洗澡",
+        "traditional": "洗澡",
+        "pinyinNumber": "xi3zao3",
+        "pinyinTone": "xǐzǎo",
+        "translation": "bathe; take a bath or shower; bath or shower",
+        "pinyinAtone": "xizao"
+    },
+    {
+        "simplified": "夏",
+        "traditional": "夏",
+        "pinyinNumber": "xia4",
+        "pinyinTone": "xià",
+        "translation": "summer",
+        "pinyinAtone": "xia"
+    },
+    {
+        "simplified": "先",
+        "traditional": "先",
+        "pinyinNumber": "xian1",
+        "pinyinTone": "xiān",
+        "translation": "first; early; before",
+        "pinyinAtone": "xian"
+    },
+    {
+        "simplified": "相信",
+        "traditional": "相信",
+        "pinyinNumber": "xiang1xin4",
+        "pinyinTone": "xiāngxìn",
+        "translation": "believe (sb.); be convinced of",
+        "pinyinAtone": "xiangxin"
+    },
+    {
+        "simplified": "香蕉",
+        "traditional": "香蕉",
+        "pinyinNumber": "xiang1jiao1",
+        "pinyinTone": "xiāngjiāo",
+        "translation": "banana",
+        "pinyinAtone": "xiangjiao"
+    },
+    {
+        "simplified": "向",
+        "traditional": "向",
+        "pinyinNumber": "xiang4",
+        "pinyinTone": "xiàng",
+        "translation": "direction; towards; to turn; to face",
+        "pinyinAtone": "xiang"
+    },
+    {
+        "simplified": "像",
+        "traditional": "像",
+        "pinyinNumber": "xiang4",
+        "pinyinTone": "xiàng",
+        "translation": "be like; resemble; appearance; appear",
+        "pinyinAtone": "xiang"
+    },
+    {
+        "simplified": "小心",
+        "traditional": "小心",
+        "pinyinNumber": "xiao3xin1",
+        "pinyinTone": "xiǎoxīn",
+        "translation": "be careful",
+        "pinyinAtone": "xiaoxin"
+    },
+    {
+        "simplified": "校长",
+        "traditional": "校長",
+        "pinyinNumber": "xiao4zhang3",
+        "pinyinTone": "xiàozhǎng",
+        "translation": "principal (of school, college or university); president; headmaster",
+        "pinyinAtone": "xiaozhang"
+    },
+    {
+        "simplified": "新闻",
+        "traditional": "新聞",
+        "pinyinNumber": "xin1wen2",
+        "pinyinTone": "xīnwén",
+        "translation": "news",
+        "pinyinAtone": "xinwen"
+    },
+    {
+        "simplified": "新鲜",
+        "traditional": "新鮮",
+        "pinyinNumber": "xin1xian1",
+        "pinyinTone": "xīnxiān",
+        "translation": "fresh (experience, food, etc.); new; novel",
+        "pinyinAtone": "xinxian"
+    },
+    {
+        "simplified": "信用卡",
+        "traditional": "信用卡",
+        "pinyinNumber": "xin4yong4ka3",
+        "pinyinTone": "xìnyòngkǎ",
+        "translation": "credit card",
+        "pinyinAtone": "xinyongka"
+    },
+    {
+        "simplified": "行李箱",
+        "traditional": "行李箱",
+        "pinyinNumber": "xing2li3xiang1",
+        "pinyinTone": "xínglǐxiāng",
+        "translation": "trunk; suitcase",
+        "pinyinAtone": "xinglixiang"
+    },
+    {
+        "simplified": "熊猫",
+        "traditional": "熊貓",
+        "pinyinNumber": "xiong2mao1",
+        "pinyinTone": "xióngmāo",
+        "translation": "panda",
+        "pinyinAtone": "xiongmao"
+    },
+    {
+        "simplified": "需要",
+        "traditional": "需要",
+        "pinyinNumber": "xu1yao4",
+        "pinyinTone": "xūyào",
+        "translation": "to need; to want; to demand",
+        "pinyinAtone": "xuyao"
+    },
+    {
+        "simplified": "选择",
+        "traditional": "選擇",
+        "pinyinNumber": "xuan3ze2",
+        "pinyinTone": "xuǎnzé",
+        "translation": "select; to pick; choose",
+        "pinyinAtone": "xuanze"
+    },
+    {
+        "simplified": "要求",
+        "traditional": "要求",
+        "pinyinNumber": "yao1qiu2",
+        "pinyinTone": "yāoqiú",
+        "translation": "to request; to demand; requirement",
+        "pinyinAtone": "yaoqiu"
+    },
+    {
+        "simplified": "爷爷",
+        "traditional": "爺爺",
+        "pinyinNumber": "ye2ye5",
+        "pinyinTone": "yéye",
+        "translation": "(informal) father's father; paternal grandfather",
+        "pinyinAtone": "yeye"
+    },
+    {
+        "simplified": "一般",
+        "traditional": "一般",
+        "pinyinNumber": "yi4ban1",
+        "pinyinTone": "yìbān",
+        "translation": "general; ordinary; common; same",
+        "pinyinAtone": "yiban"
+    },
+    {
+        "simplified": "一边",
+        "traditional": "一邊",
+        "pinyinNumber": "yi4bian1",
+        "pinyinTone": "yìbiān",
+        "translation": "one side; on the one hand; at the same time",
+        "pinyinAtone": "yibian"
+    },
+    {
+        "simplified": "一定",
+        "traditional": "一定",
+        "pinyinNumber": "yi2ding4",
+        "pinyinTone": "yídìng",
+        "translation": "surely; certainly; necessarily; definite",
+        "pinyinAtone": "yiding"
+    },
+    {
+        "simplified": "一共",
+        "traditional": "一共",
+        "pinyinNumber": "yi2gong4",
+        "pinyinTone": "yígòng",
+        "translation": "altogether; in total",
+        "pinyinAtone": "yigong"
+    },
+    {
+        "simplified": "一会儿",
+        "traditional": "一會兒",
+        "pinyinNumber": "yi2hui4r5",
+        "pinyinTone": "yíhuìr",
+        "translation": "a while; a moment",
+        "pinyinAtone": "yihuir"
+    },
+    {
+        "simplified": "一样",
+        "traditional": "一樣",
+        "pinyinNumber": "yi2yang4",
+        "pinyinTone": "yíyàng",
+        "translation": "the same; alike; equal to",
+        "pinyinAtone": "yiyang"
+    },
+    {
+        "simplified": "一直",
+        "traditional": "一直",
+        "pinyinNumber": "yi4zhi2",
+        "pinyinTone": "yìzhí",
+        "translation": "always; all along; straight (in a straight line)",
+        "pinyinAtone": "yizhi"
+    },
+    {
+        "simplified": "以前",
+        "traditional": "以前",
+        "pinyinNumber": "yi3qian2",
+        "pinyinTone": "yǐqián",
+        "translation": "before; formerly; previous",
+        "pinyinAtone": "yiqian"
+    },
+    {
+        "simplified": "音乐",
+        "traditional": "音樂",
+        "pinyinNumber": "yin1yue4",
+        "pinyinTone": "yīnyuè",
+        "translation": "music",
+        "pinyinAtone": "yinyue"
+    },
+    {
+        "simplified": "银行",
+        "traditional": "銀行",
+        "pinyinNumber": "yin2hang2",
+        "pinyinTone": "yínháng",
+        "translation": "bank",
+        "pinyinAtone": "yinhang"
+    },
+    {
+        "simplified": "饮料",
+        "traditional": "飲料",
+        "pinyinNumber": "yin3liao4",
+        "pinyinTone": "yǐnliào",
+        "translation": "beverage; drink",
+        "pinyinAtone": "yinliao"
+    },
+    {
+        "simplified": "应该",
+        "traditional": "應該",
+        "pinyinNumber": "ying1gai1",
+        "pinyinTone": "yīnggāi",
+        "translation": "should; ought to; must",
+        "pinyinAtone": "yinggai"
+    },
+    {
+        "simplified": "影响",
+        "traditional": "影響",
+        "pinyinNumber": "ying3xiang3",
+        "pinyinTone": "yǐngxiǎng",
+        "translation": "influence; affect; effect",
+        "pinyinAtone": "yingxiang"
+    },
+    {
+        "simplified": "用",
+        "traditional": "用",
+        "pinyinNumber": "yong4",
+        "pinyinTone": "yòng",
+        "translation": "to use (Kangxi radical 101)",
+        "pinyinAtone": "yong"
+    },
+    {
+        "simplified": "游戏",
+        "traditional": "游戲",
+        "pinyinNumber": "you2xi4",
+        "pinyinTone": "yóuxì",
+        "translation": "game; play; recreation",
+        "pinyinAtone": "youxi"
+    },
+    {
+        "simplified": "有名",
+        "traditional": "有名",
+        "pinyinNumber": "you3ming2",
+        "pinyinTone": "yǒumíng",
+        "translation": "famous; well-known",
+        "pinyinAtone": "youming"
+    },
+    {
+        "simplified": "又",
+        "traditional": "又",
+        "pinyinNumber": "you4",
+        "pinyinTone": "yòu",
+        "translation": "(once) again; also; both (Kangxi radical 29)",
+        "pinyinAtone": "you"
+    },
+    {
+        "simplified": "遇到",
+        "traditional": "遇到",
+        "pinyinNumber": "yu4dao4",
+        "pinyinTone": "yùdào",
+        "translation": "to meet; run into; come across",
+        "pinyinAtone": "yudao"
+    },
+    {
+        "simplified": "元",
+        "traditional": "元",
+        "pinyinNumber": "yuan2",
+        "pinyinTone": "yuán",
+        "translation": "Chinese monetary unit; dollar; first; principal",
+        "pinyinAtone": "yuan"
+    },
+    {
+        "simplified": "愿意",
+        "traditional": "願意",
+        "pinyinNumber": "yuan4yi4",
+        "pinyinTone": "yuànyì",
+        "translation": "be willing; want to; be ready",
+        "pinyinAtone": "yuanyi"
+    },
+    {
+        "simplified": "月亮",
+        "traditional": "月亮",
+        "pinyinNumber": "yue4liang5",
+        "pinyinTone": "yuèliang",
+        "translation": "the moon",
+        "pinyinAtone": "yueliang"
+    },
+    {
+        "simplified": "越",
+        "traditional": "越",
+        "pinyinNumber": "yue4",
+        "pinyinTone": "yuè",
+        "translation": "even more; the more; exceed",
+        "pinyinAtone": "yue"
+    },
+    {
+        "simplified": "站",
+        "traditional": "站",
+        "pinyinNumber": "zhan4",
+        "pinyinTone": "zhàn",
+        "translation": "stand; a station; be on one's feet; service center",
+        "pinyinAtone": "zhan"
+    },
+    {
+        "simplified": "张",
+        "traditional": "張",
+        "pinyinNumber": "zhang1",
+        "pinyinTone": "zhāng",
+        "translation": "(mw for flat objects); to spread out; (common surname)",
+        "pinyinAtone": "zhang"
+    },
+    {
+        "simplified": "长",
+        "traditional": "長",
+        "pinyinNumber": "chang2, zhang3",
+        "pinyinTone": "cháng, zhǎng",
+        "translation": "long; length | grow; chief (Kangxi radical 168)",
+        "pinyinAtone": "chang, zhang"
+    },
+    {
+        "simplified": "着急",
+        "traditional": "著急",
+        "pinyinNumber": "zhao2ji2",
+        "pinyinTone": "zháojí",
+        "translation": "to worry; feel anxious",
+        "pinyinAtone": "zhaoji"
+    },
+    {
+        "simplified": "照顾",
+        "traditional": "照顧",
+        "pinyinNumber": "zhao4gu5",
+        "pinyinTone": "zhàogu",
+        "translation": "take care of; look after; give consideration",
+        "pinyinAtone": "zhaogu"
+    },
+    {
+        "simplified": "照片",
+        "traditional": "照片",
+        "pinyinNumber": "zhao4pian4",
+        "pinyinTone": "zhàopiàn",
+        "translation": "picture; photograph",
+        "pinyinAtone": "zhaopian"
+    },
+    {
+        "simplified": "照相机",
+        "traditional": "照相機",
+        "pinyinNumber": "zhao4xiang4ji1",
+        "pinyinTone": "zhàoxiàngjī",
+        "translation": "camera",
+        "pinyinAtone": "zhaoxiangji"
+    },
+    {
+        "simplified": "只",
+        "traditional": "隻",
+        "pinyinNumber": "zhi1, zhi3",
+        "pinyinTone": "zhī, zhǐ",
+        "translation": "but; only; merely; just | (mw for birds and certain animals)",
+        "pinyinAtone": "zhi, zhi"
+    },
+    {
+        "simplified": "只有",
+        "traditional": "隻有",
+        "pinyinNumber": "zhi3you3",
+        "pinyinTone": "zhǐyǒu",
+        "translation": "only",
+        "pinyinAtone": "zhiyou"
+    },
+    {
+        "simplified": "才",
+        "traditional": "才",
+        "pinyinNumber": "cai2",
+        "pinyinTone": "cái",
+        "translation": "ability; talent; just now; not until",
+        "pinyinAtone": "cai"
+    },
+    {
+        "simplified": "中间",
+        "traditional": "中間",
+        "pinyinNumber": "zhong1jian1",
+        "pinyinTone": "zhōngjiān",
+        "translation": "center; middle; between; among",
+        "pinyinAtone": "zhongjian"
+    },
+    {
+        "simplified": "中文",
+        "traditional": "中文",
+        "pinyinNumber": "Zhong1wen2",
+        "pinyinTone": "Zhōngwén",
+        "translation": "Chinese (language)",
+        "pinyinAtone": "Zhongwen"
+    },
+    {
+        "simplified": "终于",
+        "traditional": "終於",
+        "pinyinNumber": "zhong1yu2",
+        "pinyinTone": "zhōngyú",
+        "translation": "at last; in the end; finally",
+        "pinyinAtone": "zhongyu"
+    },
+    {
+        "simplified": "种",
+        "traditional": "種",
+        "pinyinNumber": "zhong3",
+        "pinyinTone": "zhǒng",
+        "translation": "type; breed; race; seed",
+        "pinyinAtone": "zhong"
+    },
+    {
+        "simplified": "重要",
+        "traditional": "重要",
+        "pinyinNumber": "zhong4yao4",
+        "pinyinTone": "zhòngyào",
+        "translation": "important; significant; major",
+        "pinyinAtone": "zhongyao"
+    },
+    {
+        "simplified": "周末",
+        "traditional": "周末",
+        "pinyinNumber": "zhou1mo4",
+        "pinyinTone": "zhōumò",
+        "translation": "weekend",
+        "pinyinAtone": "zhoumo"
+    },
+    {
+        "simplified": "主要",
+        "traditional": "主要",
+        "pinyinNumber": "zhu3yao4",
+        "pinyinTone": "zhǔyào",
+        "translation": "main; principal; major",
+        "pinyinAtone": "zhuyao"
+    },
+    {
+        "simplified": "注意",
+        "traditional": "注意",
+        "pinyinNumber": "zhu4yi4",
+        "pinyinTone": "zhùyì",
+        "translation": "pay attention to; take notice of; be careful",
+        "pinyinAtone": "zhuyi"
+    },
+    {
+        "simplified": "自己",
+        "traditional": "自己",
+        "pinyinNumber": "zi4ji3",
+        "pinyinTone": "zìjǐ",
+        "translation": "oneself; self",
+        "pinyinAtone": "ziji"
+    },
+    {
+        "simplified": "自行车",
+        "traditional": "自行車",
+        "pinyinNumber": "zi4xing2che1",
+        "pinyinTone": "zìxíngchē",
+        "translation": "bike; bicycle",
+        "pinyinAtone": "zixingche"
+    },
+    {
+        "simplified": "总是",
+        "traditional": "總是",
+        "pinyinNumber": "zong3shi4",
+        "pinyinTone": "zǒngshì",
+        "translation": "always; eventually",
+        "pinyinAtone": "zongshi"
+    },
+    {
+        "simplified": "嘴",
+        "traditional": "嘴",
+        "pinyinNumber": "zui3",
+        "pinyinTone": "zuǐ",
+        "translation": "mouth",
+        "pinyinAtone": "zui"
+    },
+    {
+        "simplified": "最后",
+        "traditional": "最后",
+        "pinyinNumber": "zui4hou4",
+        "pinyinTone": "zuìhòu",
+        "translation": "last; final; ultimately",
+        "pinyinAtone": "zuihou"
+    },
+    {
+        "simplified": "最近",
+        "traditional": "最近",
+        "pinyinNumber": "zui4jin4",
+        "pinyinTone": "zuìjìn",
+        "translation": "recently; lately; these days",
+        "pinyinAtone": "zuijin"
+    },
+    {
+        "simplified": "作业",
+        "traditional": "作業",
+        "pinyinNumber": "zuo4ye4",
+        "pinyinTone": "zuòyè",
+        "translation": "school assignment; homework; task",
+        "pinyinAtone": "zuoye"
+    }
+]

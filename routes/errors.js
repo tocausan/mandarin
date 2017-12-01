@@ -1,17 +1,27 @@
+/** error routes **/
+
 module.exports = {
-    error_404: function (req, res, next) {
-        var err = new Error('Not Found');
+    /** error 404 **/
+    error404: function (req, res, next) {
+        let err = new Error('Not Found');
         err.status = 404;
         next(err);
     },
 
-    error_handler: function (err, req, res, next) {
-        // set locals, only providing error in development
-        res.locals.message = err.message;
-        res.locals.error = req.app.get('env') === 'development' ? err : {};
+    /** error 500 **/
+    error500: function (req, res, next) {
+        let err = new Error('Error server');
+        err.status = 500;
+        next(err);
+    },
 
-        // render the error page
-        res.status(err.status || 500);
-        res.render('error');
+    /** error handler **/
+    errorHandler: function (err, req, res, next) {
+        console.log(err.stack);
+        // display error
+        res.locals.error = err.message;
+        res.locals.status = err.status;
+        res.status(err.status || 500)
+            .json(res.locals);
     }
 };

@@ -1,8 +1,10 @@
-var express = require('express');
+/** translation routes **/
 
-module.exports = express.Router()
+module.exports = {
 
-    // get chinese character definition
-    .get('chinese/:character', function (req, res, next) {
-        res.send(req.params.character)
-    })
+    /** get chinese character definition **/
+    getChineseToEnglish: function (req, res, next) {
+        res.send(req.params.character);
+    }
+};
+
