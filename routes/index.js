@@ -1,53 +1,51 @@
 var express = require('express'),
-    errors = require('./errors'),
-    auth = require('./auth'),
-    //user = require('./users'),
+    corsHeaderMiddleware = require('./middlewares/corsHeader'),
+    requestValidationMiddleware = require('./middlewares/requestValidation'),
+    errorsRoutes = require('./errors'),
+    authRoutes = require('./auth'),
+    usersRoutes = require('./users'),
     dictionaryRoutes = require('./dictionary'),
     hskRoutes = require('./hsk'),
-    translation = require('./translation');
+    translation = require('./translation'),
+    apiVersionPath = '/api/v1';
 
 
 module.exports = express.Router()
-    /**
-    .all('/*', function (req, res, next) {
-        // CORS headers
-        res.header("Access-Control-Allow-Origin", "*"); // restrict it to the required domain
-        res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-        // Set custom headers for CORS
-        res.header('Access-Control-Allow-Headers', 'Content-type,Accept,X-Access-Token,X-Key');
-        if (req.method == 'OPTIONS') {
-            res.status(200).end();
-        } else {
-            next();
-        }
-    })
-     **/
-    // auth middleware, token validation
-    //.all('/api/v1/*', [require('./middlewares/validateRequest')])
+    .all('/*', [corsHeaderMiddleware])
 
     // log routes
-    //.use('/login', auth)
+    .use('/login', authRoutes.login)
+
+    // auth middleware, token validation
+    .all(apiVersionPath + '/*', [requestValidationMiddleware])
+
+    // users
+    //.get('/api/v1/admin/users', usersRoutes.getAll)
+    //.get('/api/v1/admin/user/:id', usersRoutes.getOne)
+    //.post('/api/v1/admin/user/', usersRoutes.create)
+    //.put('/api/v1/admin/user/:id', usersRoutes.update)
+    //.delete('/api/v1/admin/user/:id', usersRoutes.delete)
 
     // dictionary routes
-    .get('/dictionary', dictionaryRoutes.getAll)
-    .get('/dictionary/traditional', dictionaryRoutes.getTraditional)
-    .get('/dictionary/simplified', dictionaryRoutes.getSimplified)
-    .get('/dictionary/pinyin-number', dictionaryRoutes.getPinyinNumber)
-    .get('/dictionary/pinyin-tone', dictionaryRoutes.getPinyinTone)
-    .get('/dictionary/pinyin-atone', dictionaryRoutes.getPinyinAtone)
-    .get('/dictionary/translation', dictionaryRoutes.getTranslation)
+    .get(apiVersionPath + '/dictionary', dictionaryRoutes.getAll)
+    .get(apiVersionPath + '/dictionary/traditional', dictionaryRoutes.getTraditional)
+    .get(apiVersionPath + '/dictionary/simplified', dictionaryRoutes.getSimplified)
+    .get(apiVersionPath + '/dictionary/pinyin-number', dictionaryRoutes.getPinyinNumber)
+    .get(apiVersionPath + '/dictionary/pinyin-tone', dictionaryRoutes.getPinyinTone)
+    .get(apiVersionPath + '/dictionary/pinyin-atone', dictionaryRoutes.getPinyinAtone)
+    .get(apiVersionPath + '/dictionary/translation', dictionaryRoutes.getTranslation)
 
     // hsk routes
-    .get('/hsk/:level', hskRoutes.getAll)
-    .get('/hsk/:level/traditional', hskRoutes.getTraditional)
-    .get('/hsk/:level/simplified', hskRoutes.getSimplified)
-    .get('/hsk/:level/pinyin-number', hskRoutes.getPinyinNumber)
-    .get('/hsk/:level/pinyin-tone', hskRoutes.getPinyinTone)
-    .get('/hsk/:level/pinyin-atone', hskRoutes.getPinyinAtone)
-    .get('/hsk/:level/translation', hskRoutes.getTranslation)
+    .get(apiVersionPath + '/hsk/:level', hskRoutes.getAll)
+    .get(apiVersionPath + '/hsk/:level/traditional', hskRoutes.getTraditional)
+    .get(apiVersionPath + '/hsk/:level/simplified', hskRoutes.getSimplified)
+    .get(apiVersionPath + '/hsk/:level/pinyin-number', hskRoutes.getPinyinNumber)
+    .get(apiVersionPath + '/hsk/:level/pinyin-tone', hskRoutes.getPinyinTone)
+    .get(apiVersionPath + '/hsk/:level/pinyin-atone', hskRoutes.getPinyinAtone)
+    .get(apiVersionPath + '/hsk/:level/translation', hskRoutes.getTranslation)
 
     // translation routes
     //.use('/translation', translation)
 
-    .use(errors.error404)
-    .use(errors.errorHandler);
+    .use(errorsRoutes.error404)
+    .use(errorsRoutes.errorHandler);

@@ -3,8 +3,8 @@
 var _ = require('lodash'),
     fs = require('fs'),
     dictionaryItemEnum = require('../enums/dictionary-item'),
-    fileFormatEnum = require('../enums/file-format'),
-    parserServices = require('../data-service/parser');
+    fileFormatEnum = require('../enums/file-format');
+
 
 module.exports = {
 

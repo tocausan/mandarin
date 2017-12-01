@@ -5,11 +5,16 @@
  * - parse txt file to json
  * **/
 
-let program = require('commander'),
-    fs = require('fs');
+let fs = require('fs'),
+    mongoDb = require('mongodb'),
+    databasePath = 'mongodb://localhost:27017/chinese-api',
+    dictionaryCollection = 'dictionary',
+    hskCollection = 'hsk',
+    dictionaryFilePath = './data/chinese-cedict_ts.u8',
+    hskFilePath = './data/hsk_*_cn-en.txt'
 
 
-let fileParserTool = {
+module.exports = {
 
     /** list files **/
     listFiles: function (path) {
@@ -53,13 +58,103 @@ let fileParserTool = {
         });
     },
 
+    /** check database connection **/
+    checkDatabaseConnection: function () {
+        return new Promise((resolve, reject) => {
+            mongoDb.MongoClient.connect(databasePath, (err, db) => {
+                //error
+                if (err) reject('database not available: \n' + err);
+
+                // success
+                resolve('database available');
+
+                // close
+                db.close();
+            });
+        });
+    },
+
+    /** drop database collection **/
+    dropDatabaseCollection: function (collection) {
+        return new Promise((resolve, reject) => {
+            mongoDb.MongoClient.connect(databasePath, (err, db) => {
+                // error
+                if (err) reject('database not available: \n' + err);
+
+                // check if collection empty
+                this.findDatabaseCollection(collection).then((data) => {
+                    // drop if data
+                    if (data.length > 0) {
+                        // drop collection
+                        db.collection(collection).drop((err, result) => {
+                            // error
+                            if (err) reject('collection drop failed: \n' + err);
+
+                            // success
+                            resolve('collection dropped: ' + result);
+                        });
+                    } else {
+                        // success
+                        resolve('collection empty not dropped');
+                    }
+                });
+                // close
+                db.close();
+            });
+        })
+    },
+
+    /** insert data in database **/
+    insertDatabaseCollection: function (collection, data) {
+        return new Promise((resolve, reject) => {
+            mongoDb.MongoClient.connect(databasePath, (err, db) => {
+                // error
+                if (err) reject('database not available: \n' + err);
+
+                // insert data in collection
+                db.collection(collection).insertMany(data, (err, result) => {
+                    // error
+                    if (err) reject('insert collection failed: \n' + err);
+
+                    // success
+                    resolve('inserted ' + data.length + ' documents: ' + result);
+
+                    // close
+                    db.close();
+                });
+            })
+        })
+    },
+
+    /** get database collection **/
+    findDatabaseCollection: function (collection) {
+        return new Promise((resolve, reject) => {
+            mongoDb.MongoClient.connect(databasePath, (err, db) => {
+                // error
+                if (err) reject('database not available: \n' + err);
+
+                // find all documents
+                db.collection(collection).find().toArray((err, result) => {
+                    // error
+                    if (err) reject('collection not available: \n' + err);
+
+                    // success
+                    resolve(result);
+
+                    // close
+                    db.close();
+                });
+            });
+        });
+    },
 
     /** parse chinese dictionary u8
      * data sample: 龐加萊 庞加莱 [Pang2 jia1 lai2] /Henri Poincaré (1854-1912), French mathematician, physician and philosopher/
      * split text > lines > characters
      * **/
-    parseU8File: function (filePath) {
-        return this.readFile(filePath).then((data) => {
+    parseDictionaryFile: function () {
+        // parse chinese dictionary u8 file
+        return this.readFile(dictionaryFilePath).then((data) => {
             var lines = data.split('\n'),
                 parsedData = [];
 
@@ -85,7 +180,22 @@ let fileParserTool = {
                 }
             });
 
-            return this.writeJsonFile(filePath, parsedData);
+            // drop database collection
+            this.dropDatabaseCollection(dictionaryCollection).then((dropResult) => {
+                console.log(dropResult);
+
+                // insert in database if connected
+                this.insertDatabaseCollection(dictionaryCollection, parsedData).then((insertResult) => {
+                    console.log(insertResult);
+                }, (err) => {
+                    console.log(err);
+                });
+            }, (err) => {
+                console.log(err);
+            });
+
+            // write json file
+            return this.writeJsonFile(dictionaryFilePath, parsedData);
         });
     },
 
@@ -94,32 +204,65 @@ let fileParserTool = {
      * data sample: 打电话    打電話    da3 dian4hua4    dǎ diànhuà    make a phone call
      * split text > lines > characters
      * **/
-    parseCsvFile: function (filePath) {
-        return this.readFile(filePath).then((data) => {
-            // split lines by tab
-            let lines = data.split('\n'),
-                parsedData = [];
+    parseHskFile: function () {
+        // get 6 hsk files
+        for (let i = 0; i < 7; i++) {
 
-            // map lines > object
-            lines.map((line) => {
-                if (line.length > 0 && line[0] !== '#') {
-                    // splitted by tab
-                    let tabed = line.split('\t'),
-                        parsedLine = {
-                            simplified: tabed ? tabed[0] : null,
-                            traditional: tabed && tabed.length >= 2 ? tabed[1] : null,
-                            pinyinNumber: tabed && tabed.length >= 3 ? tabed[2] : null,
-                            pinyinTone: tabed && tabed.length >= 4 ? tabed[3] : null,
-                            translation: tabed && tabed.length >= 5 ? tabed[4] : null
-                        };
-                    if (parsedLine.pinyinTone) {
-                        parsedLine.pinyinAtone = parsedLine.pinyinTone.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            // get file path
+            let filePath = hskFilePath.replace('*', i);
+
+            //parse hsk txt file
+            this.readFile(filePath).then((data) => {
+                // split lines by tab
+                let lines = data.split('\n'),
+                    level = null,
+                    parsedData = [];
+
+                // map lines > object
+                lines.map((line) => {
+                    // get hsk level from comment
+                    if (line[0] === '#' && line.indexOf('hsk')) {
+                        level = line.match(/\d+/g)[0][0];
                     }
-                    parsedData.push(parsedLine);
-                }
+
+                    if (line.length > 0 && line[0] !== '#') {
+                        // splitted by tab
+                        let tabed = line.split('\t'),
+                            parsedLine = {
+                                simplified: tabed ? tabed[0] : null,
+                                traditional: tabed && tabed.length >= 2 ? tabed[1] : null,
+                                pinyinNumber: tabed && tabed.length >= 3 ? tabed[2] : null,
+                                pinyinTone: tabed && tabed.length >= 4 ? tabed[3] : null,
+                                translation: tabed && tabed.length >= 5 ? tabed[4] : null
+                            };
+                        if (parsedLine.pinyinTone) {
+                            parsedLine.pinyinAtone = parsedLine.pinyinTone.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+                        }
+                        parsedData.push(parsedLine);
+                    }
+                });
+
+                let collection = hskCollection + '_' + level;
+
+                // drop database collection
+                this.dropDatabaseCollection(collection).then((dropResult) => {
+                    console.log(dropResult);
+
+                    // insert in database if connected
+                    this.insertDatabaseCollection(collection, parsedData).then((insertResult) => {
+                        console.log(insertResult);
+                    }, (err) => {
+                        console.log(err);
+                    });
+                }, (err) => {
+                    console.log(err);
+                });
+
+
+                // write json file
+                this.writeJsonFile(filePath, parsedData);
             });
-            return this.writeJsonFile(filePath, parsedData);
-        });
+        }
     },
 
 
@@ -171,42 +314,4 @@ let fileParserTool = {
         return words.join('');
     }
 };
-
-
-/** program **/
-program
-    .version('0.1.0')
-    .option('-h, --h', 'Show help menu')
-    .option('-l, --list [path]', 'List files')
-    .option('-u, --parse-u8 [path]', 'Parse u8 file')
-    .option('-t, --parse-txt [path]', 'Parse txt file')
-    .parse(process.argv);
-
-
-// help | main menu
-if (program.h) {
-    console.log(`
-        ########################
-        ### File Parser Tool ###
-        ########################
-        
-        -h          --help              Show this menu
-        -l [path]   --list [path]       List files
-        -u [path]  --parse-u8 [path]    Parse u8 file
-        -t [path]  --parse-txt [path]   Parse txt file
-    `);
-}
-
-
-if (program.list) {
-    return fileParserTool.listFiles(program.list);
-}
-
-if (program.parseU8) {
-    return fileParserTool.parseU8File(program.parseU8);
-}
-
-if (program.parseCsv) {
-    return fileParserTool.parseCsvFile(program.parseCsv);
-}
 
