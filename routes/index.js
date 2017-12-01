@@ -38,7 +38,13 @@ module.exports = express.Router()
     .get('/dictionary/translation', dictionaryRoutes.getTranslation)
 
     // hsk routes
-    .get('/hsk/:level', hskRoutes.getLevel)
+    .get('/hsk/:level', hskRoutes.getAll)
+    .get('/hsk/:level/traditional', hskRoutes.getTraditional)
+    .get('/hsk/:level/simplified', hskRoutes.getSimplified)
+    .get('/hsk/:level/pinyin-number', hskRoutes.getPinyinNumber)
+    .get('/hsk/:level/pinyin-tone', hskRoutes.getPinyinTone)
+    .get('/hsk/:level/pinyin-atone', hskRoutes.getPinyinAtone)
+    .get('/hsk/:level/translation', hskRoutes.getTranslation)
 
     // translation routes
     //.use('/translation', translation)

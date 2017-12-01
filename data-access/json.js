@@ -55,7 +55,7 @@ module.exports = {
     selectData: function (filePath, dataSelection) {
         return new Promise((resolve, reject) => {
             this.readJsonFile(filePath).then((data) => {
-console.log(dataSelection)
+
                 switch (dataSelection) {
                     case dictionaryItemEnum.ALL:
                         resolve(data);

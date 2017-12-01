@@ -2,14 +2,14 @@
 
 var jsonDataAccess = require('../data-access/json'),
     dictionaryItemEnum = require('../enums/dictionary-item'),
-    dictionary = process.env.PWD + '/data/chinese-cedict_ts.u8.json',
+    dictionaryPath = process.env.PWD + '/data/chinese-cedict_ts.u8.json',
     errorRoutes = require('./errors');
 
 
 module.exports = {
     /** get all dictionary **/
     getAll: function (req, res, next) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.ALL).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.ALL).then((data) => {
             res.json(data);
         }, (err) => {
             res.locals.message = err;
@@ -19,7 +19,7 @@ module.exports = {
 
     /** get traditional only **/
     getTraditional: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.TRADITIONAL).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.TRADITIONAL).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -30,7 +30,7 @@ module.exports = {
 
     /** get simplified only **/
     getSimplified: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.SIMPLIFIED).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.SIMPLIFIED).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -41,7 +41,7 @@ module.exports = {
 
     /** get pinyin number only **/
     getPinyinNumber: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.PINYIN_NUMBER).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.PINYIN_NUMBER).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -52,7 +52,7 @@ module.exports = {
 
     /** get pinyin tone only **/
     getPinyinTone: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.PINYIN_TONE).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.PINYIN_TONE).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -63,7 +63,7 @@ module.exports = {
 
     /** get pinyin atone only **/
     getPinyinAtone: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.PINYIN_ATONE).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.PINYIN_ATONE).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -74,7 +74,7 @@ module.exports = {
 
     /** get translation only **/
     getTranslation: function (req, res) {
-        return jsonDataAccess.selectData(dictionary, dictionaryItemEnum.TRANSLATION).then((data) => {
+        return jsonDataAccess.selectData(dictionaryPath, dictionaryItemEnum.TRANSLATION).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
