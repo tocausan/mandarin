@@ -1,29 +1,21 @@
 /** file parser tool
  *
- * - list files
  * - parse u8 file to json
  * - parse txt file to json
  * **/
 
 let fs = require('fs'),
+    _ = require('lodash'),
     mongoDb = require('mongodb'),
     databasePath = 'mongodb://localhost:27017/chinese-api',
     dictionaryCollection = 'dictionary',
     hskCollection = 'hsk',
-    dictionaryFilePath = './data/chinese-cedict_ts.u8',
-    hskFilePath = './data/hsk_*_cn-en.txt'
+    dictionaryFilePath = './data/original/chinese-cedict_ts.u8',
+    hskFilePath = './data/original/hsk_*_cn-en.txt',
+    jsonFolder = './data/json/';
 
 
 module.exports = {
-
-    /** list files **/
-    listFiles: function (path) {
-        // show files with path
-        fs.readdirSync(path || './').map((item) => {
-            console.log(path + '/' + item);
-        });
-    },
-
 
     /** read file **/
     readFile: function (filePath) {
@@ -38,14 +30,18 @@ module.exports = {
         })
     },
 
-
     /** write json file **/
-    writeJsonFile: function (filePath, givenData) {
+    writeJsonFile: function (folderName, fileName, givenData) {
         return new Promise((resolve, reject) => {
             // check if data is json
             if (JSON.stringify(givenData)) {
+                // create folder if not exist
+                if (!fs.existsSync(folderName)){
+                    fs.mkdirSync(folderName);
+                }
+
                 // beautify code with stringify parameters
-                fs.writeFileSync(filePath + '.json', JSON.stringify(givenData, null, 4), (err) => {
+                fs.writeFileSync(folderName + fileName + '.json', JSON.stringify(givenData, null, 4), (err) => {
                     if (err) {
                         reject(err);
                     } else {
@@ -195,7 +191,8 @@ module.exports = {
             });
 
             // write json file
-            return this.writeJsonFile(dictionaryFilePath, parsedData);
+            let fileName = _.last(dictionaryFilePath.split('/'));
+            return this.writeJsonFile(jsonFolder, fileName, parsedData);
         });
     },
 
@@ -206,10 +203,10 @@ module.exports = {
      * **/
     parseHskFile: function () {
         // get 6 hsk files
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 6; i++) {
 
             // get file path
-            let filePath = hskFilePath.replace('*', i);
+            let filePath = hskFilePath.replace('*', i + 1);
 
             //parse hsk txt file
             this.readFile(filePath).then((data) => {
@@ -260,7 +257,8 @@ module.exports = {
 
 
                 // write json file
-                this.writeJsonFile(filePath, parsedData);
+                let fileName = _.last(filePath.split('/'));
+                this.writeJsonFile(jsonFolder, fileName, parsedData);
             });
         }
     },
