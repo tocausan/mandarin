@@ -2,6 +2,7 @@
 
 var _ = require('lodash'),
     fs = require('fs'),
+    fileServices = require('../services/file'),
     dictionaryItemEnum = require('../enums/dictionary-item'),
     fileFormatEnum = require('../enums/file-format');
 
@@ -11,7 +12,6 @@ module.exports = {
     /** Write json file **/
     writeJsonFile: function (filePath, givenData) {
         return new Promise((resolve, reject) => {
-            // get file format
             let fileFormat = _.last(_.last(filePath.split('/')).split('.')),
                 newFileFormat = fileFormat !== fileFormatEnum.JSON ? '.' + fileFormatEnum.JSON : '';
 
@@ -30,21 +30,14 @@ module.exports = {
     /** Read json file **/
     readJsonFile: function (filePath) {
         return new Promise((resolve, reject) => {
-            // get file format
             let fileFormat = _.last(_.last(filePath.split('/')).split('.'));
 
             // check if json file
             if (fileFormat === fileFormatEnum.JSON) {
-                // read data as UTF8
-                fs.readFile(filePath, 'utf8', (err, data) => {
-                    if (err) {
-                        reject(err);
-                    } else {
-                        resolve(JSON.parse(data));
-                    }
-                });
+                fileServices.readFile(filePath).then(result => {
+                    resolve(JSON.parse(result));
+                })
             } else {
-                // reject if not json file
                 reject('Expected json file, cannot read ' + fileFormat + ' file');
             }
         })

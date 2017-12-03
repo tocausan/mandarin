@@ -1,9 +1,8 @@
 /** hsk routes **/
 
-let express = require('express'),
-    dictionaryItemEnum = require('../enums/dictionary-item'),
-    jsonDataAccess = require('../data-access/json'),
-    hskPath = process.env.PWD + '/data/hsk_*_cn-en.txt.json',
+let enums = require('../enums'),
+    config = require('../config'),
+    dataAccess = require('../data-access'),
     errorRoutes = require('./errors');
 
 
@@ -11,10 +10,7 @@ module.exports = {
 
     /** get all hsk level **/
     getAll: function (req, res, next) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.ALL).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.ALL).then((data) => {
             res.json(data);
         }, (err) => {
             res.locals.message = err;
@@ -24,10 +20,7 @@ module.exports = {
 
     /** get traditional only **/
     getTraditional: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.TRADITIONAL).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.TRADITIONAL).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -38,10 +31,7 @@ module.exports = {
 
     /** get simplified only **/
     getSimplified: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.SIMPLIFIED).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.SIMPLIFIED).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -52,10 +42,7 @@ module.exports = {
 
     /** get pinyin number only **/
     getPinyinNumber: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.PINYIN_NUMBER).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.PINYIN_NUMBER).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -66,10 +53,7 @@ module.exports = {
 
     /** get pinyin tone only **/
     getPinyinTone: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.PINYIN_TONE).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.PINYIN_TONE).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -80,10 +64,7 @@ module.exports = {
 
     /** get pinyin atone only **/
     getPinyinAtone: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.PINYIN_ATONE).then((data) => {
+        return dataAccess.json.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.PINYIN_ATONE).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);
@@ -94,10 +75,7 @@ module.exports = {
 
     /** get translation only **/
     getTranslation: function (req, res) {
-        // get hsk level file path
-        let levelFilePath = hskPath.replace('*', req.params.level);
-
-        return jsonDataAccess.selectData(levelFilePath, dictionaryItemEnum.TRANSLATION).then((data) => {
+        return jsonDataAccess.selectData(config.file.hsk.json[req.params.level], enums.dictionaryItem.TRANSLATION).then((data) => {
             res.json(data);
         }, (err) => {
             console.log(err);

@@ -1,47 +1,34 @@
 /** users routes **/
 
-var data = [{
-    name: 'user 1',
-    id: '1'
-}, {
-    name: 'user 2',
-    id: '2'
-}, {
-    name: 'user 3',
-    id: '3'
-}];
-
+let config = require('../config'),
+    databaseServices = require('../services/database');
 
 module.exports = {
 
     getAll: function(req, res) {
-        let allusers = data;
-        res.json(allusers);
+        databaseServices.findAll(config.database.collections.users).then(result => {
+            res.json(result);
+        });
     },
 
-    getOne: function(req, res) {
-        let id = req.params.id,
-            user = data[0];
-        res.json(user);
+    getOneByUsername: function(req, res) {
+        databaseServices.findOne(config.database.collections.users, {username: req.params.username}).then(result => {
+            res.json(result);
+        });
     },
 
     create: function(req, res) {
-        let newuser = req.body;
-        data.push(newuser);
-        res.json(newuser);
+        databaseServices.insertOneIfNotExist(config.database.collections.users, req.body).then(result => {
+            res.json(result);
+        });
     },
 
     update: function(req, res) {
-        let updateuser = req.body,
-            id = req.params.id;
-        data[id] = updateuser;
-        res.json(updateuser);
+        res.json('not handled yet');
     },
 
     delete: function(req, res) {
-        let id = req.params.id;
-        data.splice(id, 1);
-        res.json(true);
+        res.json('not handled yet');
     }
 };
 

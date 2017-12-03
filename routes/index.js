@@ -17,12 +17,12 @@ module.exports = express.Router()
     .use('/login', authRoutes.login)
 
     // auth middleware, token validation
-    .all(apiVersionPath + '/*', [requestValidationMiddleware])
+    //.all(apiVersionPath + '/*', [requestValidationMiddleware])
 
     // users
-    //.get('/api/v1/admin/users', usersRoutes.getAll)
-    //.get('/api/v1/admin/user/:id', usersRoutes.getOne)
-    //.post('/api/v1/admin/user/', usersRoutes.create)
+    .get('/api/v1/admin/users', usersRoutes.getAll)
+    .get('/api/v1/admin/user/:username', usersRoutes.getOneByUsername)
+    .post('/api/v1/admin/user/', usersRoutes.create)
     //.put('/api/v1/admin/user/:id', usersRoutes.update)
     //.delete('/api/v1/admin/user/:id', usersRoutes.delete)
 
