@@ -1,10 +1,10 @@
 /** auth routes **/
 
-var config = require('../config'),
+let config = require('../config'),
     dataBaseServices = require('../services/database'),
-    errorRoutes = require('./errors'),
-    jwt = require('jwt-simple'),
-    moment = require('moment');
+    Token = require('../classes/token'),
+    errorRoutes = require('./errors');
+
 
 module.exports = {
 
@@ -16,9 +16,9 @@ module.exports = {
         };
 
         if (credential.username && credential.password) {
-            authenticateCredential(credential).then((user) => {
-                if (user) {
-                    return res.json(generateToken(user));
+            authenticateCredential(credential).then((result) => {
+                if (result) {
+                    return res.json(result);
                 } else {
                     return errorRoutes.error401_invalid(req, res, next);
                 }
@@ -33,16 +33,8 @@ module.exports = {
 let authenticateCredential = function (credential) {
     return dataBaseServices.findOne(config.database.collections.users, credential).then(findResult => {
         if(findResult){
-            return findResult;
+            return new Token(findResult);
         }
     })
 };
 
-let generateToken = function (user) {
-    // 7 days token
-    return {
-        user: user,
-        expires: moment.utc().add(7, 'days'),
-        token: jwt.encode({exp: this.expires}, config.secret.token)
-    };
-};

@@ -30,7 +30,7 @@ module.exports = {
     dropCollection: function (collection) {
         return new Promise((resolve, reject) => {
             this.findAll(collection).then(findResult => {
-                if(findResult.length > 0){
+                if (findResult.length > 0) {
                     mongoDb.MongoClient.connect(databaseConfig.path, (err, db) => {
                         if (err) reject(errorMessage.connect + err);
                         db.collection(collection).drop((error, result) => {
@@ -91,11 +91,11 @@ module.exports = {
     },
 
     /** find one document **/
-    findOne: function (collection, data) {
+    findOne: function (collection, filter) {
         return new Promise((resolve, reject) => {
             mongoDb.MongoClient.connect(databaseConfig.path, (err, db) => {
                 if (err) reject(errorMessage.connect + err);
-                db.collection(collection).findOne(data, (error, result) => {
+                db.collection(collection).findOne(filter, (error, result) => {
                     if (error) reject(errorMessage.find + error);
                     resolve(result);
                     db.close();
@@ -116,5 +116,39 @@ module.exports = {
                 });
             });
         });
+    },
+
+    /** find and update one document **/
+    findUpdateOne: function (collection, filter, data) {
+        return new Promise((resolve, reject) => {
+            mongoDb.MongoClient.connect(databaseConfig.path, (err, db) => {
+                if (err) reject(errorMessage.connect + err);
+                db.collection(collection).findOneAndUpdate(filter, {$set: data}, (error, result) => {
+                    if (error) reject(errorMessage.find + error);
+                    resolve(result);
+                    db.close();
+                });
+            });
+        });
+    },
+
+    /** find and update or insert one document **/
+    findUpdateOrInsertOne: function (collection, filter, data) {
+        return new Promise((resolve, reject) => {
+            this.findOne(collection, filter).then(findResult => {
+                if (findResult) {
+                    this.findUpdateOne(collection, filter, data).then(updateResult => {
+                        console.log('update');
+                        resolve(updateResult);
+                    })
+                } else {
+                    this.insertOne(collection, data).then(insertResult => {
+                        console.log('insert');
+                        resolve(insertResult);
+                    })
+                }
+            });
+        });
     }
+
 };

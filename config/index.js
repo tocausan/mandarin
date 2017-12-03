@@ -3,5 +3,5 @@
 module.exports = {
     database: require('./database'),
     file: require('./file'),
-    secret: require('./secret')
+    token: require('./token')
 };
