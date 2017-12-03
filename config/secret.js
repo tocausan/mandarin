@@ -1,3 +1,5 @@
-module.exports = function() {
-    return 'top-secret';
-}
+/** secret config **/
+
+module.exports = {
+    token: 'top-secret-token'
+};

@@ -1,6 +1,7 @@
 /** index tool **/
 
 let program = require('commander'),
+    databaseServices = require('../services/database'),
     fileParserTool = require('./file-parser'),
     userGeneratorTool = require('./user-generator');
 
@@ -26,7 +27,7 @@ let indexTool = {
 
     /** check database connection **/
     checkConnection: function () {
-        fileParserTool.checkDatabaseConnection().then((result) => {
+        databaseServices.checkConnection().then((result) => {
             console.log(result);
         }, (err) => {
             throw err;
