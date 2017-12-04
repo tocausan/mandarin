@@ -3,7 +3,7 @@
 let mongoDb = require('mongodb'),
     databaseConfig = require('../config/database'),
     databaseServices = require('../services/database'),
-    User = require('../classes/user'),
+    User = require('../models/user'),
     userRoleEnums = require('../enums/user-role');
 
 

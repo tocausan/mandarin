@@ -1,12 +1,10 @@
 /** database services **/
 
 let mongoDb = require('mongodb'),
-    fs = require('fs');
+    fs = require('fs'),
+    _ = require('lodash'),
+    enums = require('../enums');
 
-// error messages
-let errorMessage = {
-    notJsonData: 'Not JSON data \n'
-};
 
 module.exports = {
 
@@ -23,26 +21,49 @@ module.exports = {
         })
     },
 
+    /** Read certain format file **/
+    readFileFormat: function (filePath, format) {
+        return new Promise((resolve, reject) => {
+            let fileFormat = _.last(_.last(filePath.split('/')).split('.'));
+
+            // check if json file
+            if (fileFormat === format) {
+                this.readFile(filePath).then(result => {
+                    switch (format) {
+                        case enums.fileFormat.json:
+                            resolve(JSON.parse(result));
+                            break;
+
+                        default:
+                            resolve(result);
+                            break;
+                    }
+                }, err => {
+                    reject(err);
+                });
+            } else {
+                reject('Expected ' + format + ' file, cannot read ' + fileFormat + ' file');
+            }
+        })
+    },
+
     /** write json file **/
-    writeJsonFile: function (folder, file, data) {
+    writeJsonFile: function (folderPath, fileName, data) {
         return new Promise((resolve, reject) => {
             // check if data is json
             if (JSON.stringify(data)) {
                 // create folder if not exist
-                if (!fs.existsSync(folder)) {
-                    fs.mkdirSync(folder);
+                if (!fs.existsSync(folderPath)) {
+                    fs.mkdirSync(folderPath);
                 }
 
                 // beautify code with stringify parameters
-                fs.writeFileSync(folder + file + '.json', JSON.stringify(data, null, 4), (err) => {
-                    if (err) {
-                        reject(err);
-                    } else {
-                        resolve(data);
-                    }
+                fs.writeFileSync(folderPath + fileName + '.' + enums.fileFormat.json, JSON.stringify(data, null, 4), (err) => {
+                    if (err) reject(err);
+                    resolve(data);
                 });
             } else {
-                reject(errorMessage.notJsonData);
+                reject('Not JSON data');
             }
         });
     }

@@ -2,7 +2,7 @@
 
 let config = require('../config'),
     dataBaseServices = require('../services/database'),
-    Token = require('../classes/token'),
+    Token = require('../models/token'),
     errorRoutes = require('./errors');
 
 

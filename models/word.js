@@ -1,4 +1,5 @@
 /** word model **/
+let enums = require('../enums');
 
 module.exports = class {
 
@@ -71,6 +72,43 @@ module.exports = class {
 
         // return pinyin atone
         return pinyin.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    };
+
+    /** select data **/
+    static selectData(data, selection){
+        switch (selection) {
+            case enums.dictionaryItem.ALL:
+                return data;
+                break;
+
+            case enums.dictionaryItem.TRADITIONAL:
+                return data.map(item => item.traditional);
+                break;
+
+            case enums.dictionaryItem.SIMPLIFIED:
+                return data.map(item => item.simplified);
+                break;
+
+            case enums.dictionaryItem.PINYIN_NUMBER:
+                return data.map(item => item.pinyinNumber);
+                break;
+
+            case enums.dictionaryItem.PINYIN_TONE:
+                return data.map(item => item.pinyinTone);
+                break;
+
+            case enums.dictionaryItem.PINYIN_ATONE:
+                return data.map(item => item.pinyinAtone);
+                break;
+
+            case enums.dictionaryItem.TRANSLATION:
+                return data.map(item => item.translation);
+                break;
+
+            default:
+                return data;
+                break;
+        }
     };
 
 };

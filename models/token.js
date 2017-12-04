@@ -2,7 +2,7 @@
 
 let jwt = require('jwt-simple'),
     moment = require('moment'),
-    config = require('../config'),
+    config = require('../config/index'),
     databaseServices = require('../services/database');
 
 
